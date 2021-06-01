@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+/*Index*/
 * {
   box-sizing: border-box;
 }
@@ -30,11 +31,22 @@ p {
 .logo {
   width: 100px;
   height: 100px;
-  background-image: url(./hlubina-mysleni.png);
+  background-image: url('./assets/hlubina-mysleni\ copy.png');
 }
 
+.tlacitka-index {
+  background-color: aqua;
+}
+
+/* Stránka vkládání*/
+.tlacitko-zpet {
+  padding: 30px;
+}
+
+/* Stránka procvičování*/
 .tlacitka-procvicovani {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px;
 }
