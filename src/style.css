@@ -21,9 +21,20 @@ header {
   margin-top: 4rem;
 }
 
+p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
+  width: 100px;
+  height: 100px;
+  background-image: url(./hlubina-mysleni.png);
+}
+
+.tlacitka-procvicovani {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
