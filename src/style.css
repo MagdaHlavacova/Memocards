@@ -83,7 +83,8 @@ body {
 
 .tlacitko-vkladani,
 .tlacitko-procvicovani,
-.tlacitko-zpet {
+.tlacitko-zpet,
+.tlacitko-tema {
   display: flex;
   justify-content: center;
   border-style: none;
