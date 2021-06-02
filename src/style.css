@@ -22,33 +22,11 @@ html {
   margin-top: 4rem;
 }
 
-/* .homepage {
-  width: 100px;
-  height: 100px;
-  background-image: url('./assets/hlubina-mysleni\ copy.png');
-} */
-
 .tlacitka-index {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 20px;
-}
-
-.tlacitko-vkladani,
-.tlacitko-procvicovani {
-  display: flex;
-  justify-content: center;
-  border-style: none;
-  margin: 20px;
-  background-color: #0c85ab;
-  padding: 7px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-family: 'alatsi';
 }
 
 /* Stránka vkládání*/
@@ -63,6 +41,30 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 30px;
+}
+
+/* Css homepage - Magda*/
+img {
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+.obrazek {
+  margin: 0;
+}
+
+.oAplikaci {
+  background-color: #0c85ab;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: white;
+  font-family: 'alatsi';
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  width: 100%;
 }
 
 h1 {
@@ -80,24 +82,19 @@ body {
   margin: 0;
 }
 
-.oAplikaci {
+.tlacitko-vkladani,
+.tlacitko-procvicovani {
+  display: flex;
+  justify-content: center;
+  border-style: none;
+  margin: 20px;
   background-color: #0c85ab;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding: 7px;
+}
+
+a {
+  text-decoration: none;
   color: white;
   font-family: 'alatsi';
-  font-size: 20px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-img {
-  max-width: 100%;
-  margin-bottom: 0;
-}
-
-.obrazek {
-  margin: 0;
+  font-size: 18px;
 }
