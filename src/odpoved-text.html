@@ -3,29 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Hlubina myšlení</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Bungee&family=Bungee+Inline&family=Bungee+Outline&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class = "body__tema1">
     <header>
       <div id="app"></div>
 
-      <div className="logo">
+      <div class="logo">
+        <div class ="logo-brain">
+          <img src="assets/brain-ai.png" alt ="ilustrace mozku">
+        </div>
+          <div class = "hlubina">Hlubina <br>myšlení</div>
+        
       </div>
-        <div className="karta-ota">
+        <div class="karta-ota">
           <p>Paříž</p>
         </div>
-          <div className = "otazky">
-            <div className = "tlacitko-dalsi">
-              <button>Další otázka</button>
-            </div>
-            <div className="navigace-karta">
-              <button className="sipka-vlevo">Otoč zpět</button>
-              <button className="sipka-vpravo">Otoč</button>
-            </div>
-          <div className = "tlacitko-zpet-na-tema">
-            <button>Zpět k tématům</button>
+        <div class = "otazky">
+          <div class = "tlacitko-dalsi">
+            <button class= "tlacitko-zpet">Další otázka</button>
           </div>
+          <div class="navigace-karta">
+            <button class="sipka-vlevo"> <--Otoč zpět</button>
+            <button class="sipka-vpravo">Otoč--></button>
+          </div>
+        <div class = "tlacitko-zpet-na-tema">
+          <button class = "tlacitko-zpet">Zpět k tématům</button>
+        </div>
     </div>
     <script src="/bundle.js"></script>
   </body>

@@ -69,7 +69,7 @@ img {
 h1 {
   font-family: 'Bungee';
   color: #0c85ab;
-  font-size: 60px;
+  font-size: 3em;
   text-align: center;
   margin-bottom: 20px;
   margin-top: -70px;
@@ -84,7 +84,7 @@ body {
 .tlacitko-vkladani,
 .tlacitko-procvicovani,
 .tlacitko-zpet,
-.tlacitko-tema {
+.tlacitko--tema {
   display: flex;
   justify-content: center;
   border-style: none;
@@ -122,11 +122,14 @@ a {
   flex-wrap: wrap;
 }
 
+/* Css tema - Magda*/
 .tlacitka-tema {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: stretch;
+  align-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .tema {
@@ -135,6 +138,7 @@ a {
   min-width: 70%;
   margin-top: 20px;
   margin-left: 50px;
+  background-color: white;
 }
 
 .nadpis-stranky {
@@ -154,4 +158,76 @@ h2 {
 
 .tlacitko-zpet {
   margin-top: 50px;
+}
+
+/* Css karta otazka text - Magda*/
+.karta-ota {
+  display: flex;
+  justify-content: center;
+  border: #0c85ab;
+  border-style: dotted;
+  border-width: 2px;
+  align-items: center;
+  max-width: 75%;
+  min-height: 300px;
+  font-family: 'alatsi';
+  margin-left: 50px;
+  background-color: white;
+}
+
+.tlacitko-dalsi,
+.tlacitko-zpet-na-tema {
+  display: flex;
+  justify-content: center;
+}
+
+.otazky {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.navigace-karta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  height: 20px;
+}
+
+.sipka-vpravo,
+.sipka-vlevo {
+  font-family: 'alatsi';
+  width: 100px;
+  background-color: cornsilk;
+  border-style: none;
+}
+
+/* Css karta odpoved obrazek - Magda*/
+.karta-ota__obrazek {
+  background-image: url(img/VanGogh-HvezdnaNoc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Css karta odpoved zvuk - Magda*/
+karta-odpoved-zvuk {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+/* Css barevne pozadi odlišeno tema Francie - Magda*/
+.body__tema1 {
+  background-color: #f8eded;
+}
+
+.body__tema2 {
+  background-color: #deeeea;
+}
+
+.body__tema3 {
+  background-color: #dedef0;
 }
