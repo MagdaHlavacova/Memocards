@@ -39,7 +39,7 @@ node_modules/
 .env.test
 
 # Generated output
-# dist
+dist
 
 # VS Code settings
 .vscode
