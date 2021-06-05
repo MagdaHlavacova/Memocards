@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import PagesOtazka from './components/PagesOtazka';
 import Mainpage from './components/Main-page';
 import PagesTemata from './components/Pagestemata';
+import PagesVybrane from './components/PagesVybrane';
 import './style.css';
 
 const App = () => (
@@ -15,8 +16,11 @@ const App = () => (
       <Route path="/PagesOdpoved">
         <PagesOtazka />
       </Route>
-      <Route path="/Pagestemata">
+      <Route path="/PagesTemata">
         <PagesTemata />
+      </Route>
+      <Route path="/PagesVybrane">
+        <PagesVybrane />
       </Route>
       {/* <Route path="/PagesTemaSeznam">
         <PagesTemaSeznam />

@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import brainImg from './img/brain-ai.png';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
   return (
@@ -21,7 +22,9 @@ const Main = () => {
             </p>
           </div>
           <div class="tlacitka-homepage">
-            <button class="button1">Procvičování</button>
+            <Link to="/PagesTemata">
+              <button class="button1">Procvičování</button>
+            </Link>
             <button class="button1">Vkládání</button>
           </div>
         </div>

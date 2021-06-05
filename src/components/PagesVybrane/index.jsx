@@ -6,16 +6,15 @@ const PagesVybrane = () => {
   return (
     <>
       <Header />
-      <div className="obal-temata">
-        <div className="nadpis-stranky">
-          <h2>Kosti:</h2>
-        </div>
-        <div className="tlacitka">
-          <div className="tlacitka-tema">
-            <button className="button1">Začít procvičovat</button>
-            <button className="button1">Jak na to?</button>
-            <button className="button1">Smazat téma</button>
-            <button className="button1">Zpět na seznam témat</button>
+      <div class="obal-temata">
+        <div class="tlacitka">
+          <div class="tlacitka-vyber-tema">
+            <button class="button2">Téma 1</button>
+            <button class="button2">Téma 2</button>
+            <button class="button2">Téma 1</button>
+            <button class="button2">Téma 1</button>
+
+            <button class="button1">Zpět na hlavní stranu</button>
           </div>
         </div>
       </div>
