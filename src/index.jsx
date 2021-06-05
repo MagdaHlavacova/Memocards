@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import PagesOtazka from './components/PagesOtazka';
 import Mainpage from './components/Main-page';
+import PagesTemata from './components/Pagestemata';
 import './style.css';
 
 const App = () => (
@@ -13,6 +14,9 @@ const App = () => (
       </Route>
       <Route path="/PagesOdpoved">
         <PagesOtazka />
+      </Route>
+      <Route path="/Pagestemata">
+        <PagesTemata />
       </Route>
       {/* <Route path="/PagesTemaSeznam">
         <PagesTemaSeznam />
