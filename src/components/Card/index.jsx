@@ -3,8 +3,8 @@ import './style.css';
 
 const Card = () => {
   return (
-    <div class="obal-karta">
-      <div class="karta">
+    <div className="obal-karta">
+      <div className="karta">
         <p>Hlavní město Francie</p>
       </div>
     </div>
