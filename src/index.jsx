@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import PagesOtazka from './components/PagesOtazka';
+import Mainpage from './components/Main-page';
 import './style.css';
 
 const App = () => (
@@ -13,14 +14,14 @@ const App = () => (
       <Route path="/PagesOdpoved">
         <PagesOtazka />
       </Route>
-      <Route path="/PagesTemaSeznam">
+      {/* <Route path="/PagesTemaSeznam">
         <PagesTemaSeznam />
       </Route>
       <Route path="/PagesTemaVybrane">
         <PagesTemaVybrane />
-      </Route>
-      <Route path="/Main-page">
-        <Main-page />
+      </Route> */}
+      <Route path="/Mainpage">
+        <Mainpage />
       </Route>
     </Switch>
   </Router>
