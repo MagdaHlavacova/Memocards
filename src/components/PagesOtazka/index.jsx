@@ -7,7 +7,7 @@ const PagesOtazka = () => {
   return (
     <>
       <Header />
-      <Card />
+      <Card type="audio" content="assets/Humoreska.ogg" />
       <ButtonsCard />
     </>
   );

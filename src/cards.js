@@ -23,7 +23,7 @@ const cards = [
         },
         answer: {
           type: 'text',
-          content: 'Johannesburg',
+          content: 'Pretoria',
         },
       },
     ],
@@ -37,7 +37,7 @@ const cards = [
         id: 03,
         question: {
           type: 'image',
-          content: 'img/VanGogh-HvezdnaNoc',
+          content: 'assets/VanGogh-HvezdnaNoc.jpg',
         },
         answer: {
           type: 'text',
@@ -67,7 +67,7 @@ const cards = [
         id: 05,
         question: {
           type: 'audio',
-          content: './Humoreska.ogg',
+          content: 'assets/Humoreska.ogg',
         },
         answer: {
           type: 'text',
