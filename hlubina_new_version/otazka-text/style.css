@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+/* header css  */
+body {
+  background-color: #f8eded;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-brain {
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+}
+
+.hlubina {
+  display: flex;
+  font-family: 'Bungee';
+  color: #0c85ab;
+  font-size: 25px;
+}
+
+/* tělo karty  */
+.obal-karta {
+  display: flex;
+  justify-content: center;
+}
+
+.karta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: #0c85ab;
+  border-style: double;
+  border-width: 3px;
+  width: 65%;
+  min-height: 300px;
+  font-family: 'alatsi';
+  background-color: white;
+}
+
+/* tlacitka css */
+.tlacitka {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tlacitko-strana,
+.tlacitko-zpet {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.tlacitka-navigace {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.button-sipka-vpravo,
+.button-sipka-vlevo {
+  font-family: 'alatsi';
+  width: 110px;
+  height: 30px;
+  background-color: cornsilk;
+  border-style: none;
+}
+
+.button1 {
+  border-style: none;
+  background-color: #0c85ab;
+  color: white;
+}
+
+@media (max-width: 699px) {
+  .obrazek-responzivni-vypln {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .obal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .obrazek-responzivni-vypln,
+  .karta-responzivni-obal {
+    width: calc(100% / 2);
+  }
+
+  .karta-responzivni-obal {
+    border-left: dotted;
+    border-bottom: dotted;
+    border-color: #0c85ab;
+    border-width: 2px;
+    padding-bottom: 20px;
+  }
+
+  .obrazek-responzivni-vypln {
+    display: flex;
+    align-items: center;
+  }
+}
