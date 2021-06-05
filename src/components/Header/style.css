@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+/* header css  */
+body {
+  background-color: #f8eded;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-brain {
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+}
+
+.hlubina {
+  display: flex;
+  font-family: 'Bungee';
+  color: #0c85ab;
+  font-size: 25px;
+}
