@@ -1,0 +1,34 @@
+.tlacitka {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tlacitko-strana,
+.tlacitko-zpet {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.tlacitka-navigace {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.button-sipka-vpravo,
+.button-sipka-vlevo {
+  font-family: 'alatsi';
+  width: 110px;
+  height: 30px;
+  background-color: cornsilk;
+  border-style: none;
+}
+
+.button1 {
+  border-style: none;
+  background-color: #0c85ab;
+  color: white;
+}
