@@ -20,6 +20,10 @@ const Main = () => {
               stopu.
             </p>
           </div>
+          <div class="tlacitka-homepage">
+            <button class="button1">Procvičování</button>
+            <button class="button1">Vkládání</button>
+          </div>
         </div>
       </div>
     </>
