@@ -7,8 +7,8 @@ const PagesNavod = (props) => {
       <div className="modal">
         <ul className="navod-text">
           <li>1. Vyberte si téma, jaké se chcete učit.</li>
-          <li>2. Začněte procvičovat.</li>
-          <li>3. Otáčejte kartou.</li>
+          <li>2. Klikněte na PROCVIČOVAT.</li>
+          <li>3. Stiskněte OTOČ KARTU pro zobrazení druhé strany karty.</li>
           <li>4. Přejděte na další kartu.</li>
         </ul>
         <button onClick={props.zavrit} className="tlacitko-navod">

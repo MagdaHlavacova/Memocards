@@ -5,12 +5,10 @@
 .modal {
   display: flex;
   flex-direction: column;
-  position: relative;
+  justify-content: center;
   height: 200px;
   width: 200px;
-  text-align: center;
   padding: 10px;
-  position: relative;
   border-radius: 50%;
 }
 
