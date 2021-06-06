@@ -2,17 +2,37 @@ import React from 'react';
 import './style.css';
 import { Link } from 'react-router-dom';
 
-const ButtonsCard = () => {
+const ButtonsCard = ({
+  handleOtoceni,
+  handleKartaZpet,
+  handleKartaDalsi,
+  zablokovaneDalsi,
+  zablokovaneZpet,
+}) => {
   return (
     <>
       <div className="tlacitka">
         <div className="tlacitko-strana">
-          <button className="button1">Otoč kartu</button>
+          <button onClick={handleOtoceni} className="button1">
+            Řešení
+          </button>
         </div>
       </div>
       <div className="tlacitka-navigace">
-        <button className="button-sipka-vlevo"> Zpět na kartu</button>
-        <button className="button-sipka-vpravo">Další karta</button>
+        <button
+          onClick={handleKartaZpet}
+          className="button-sipka-vlevo"
+          disabled={zablokovaneZpet}
+        >
+          Předchozí karta
+        </button>
+        <button
+          onClick={handleKartaDalsi}
+          className="button-sipka-vpravo"
+          disabled={zablokovaneDalsi}
+        >
+          Další karta
+        </button>
       </div>
       <div className="tlacitko-zpet">
         <Link to="/PagesTemaSeznam">
