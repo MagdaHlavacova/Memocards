@@ -1,10 +1,10 @@
-const cards = [
+export const cards = [
   {
     topic: 'Hlavní města',
     backgroundColor: '#f8eded',
     cards: [
       {
-        id: 01,
+        id: 1,
         question: {
           type: 'text',
           content: 'Hlavní město Francie?',
@@ -16,7 +16,7 @@ const cards = [
       },
 
       {
-        id: 02,
+        id: 2,
         question: {
           type: 'text',
           content: 'Hlavní město Jihoafrické republiky',
@@ -34,7 +34,7 @@ const cards = [
     backgroundColor: '#deeeea',
     cards: [
       {
-        id: 03,
+        id: 3,
         question: {
           type: 'image',
           content: 'assets/VanGogh-HvezdnaNoc.jpg',
@@ -46,7 +46,7 @@ const cards = [
       },
 
       {
-        id: 04,
+        id: 4,
         question: {
           type: 'image',
           content: 'img/xxxxxxx',
@@ -64,7 +64,7 @@ const cards = [
     backgroundColor: '#e6e1ef',
     cards: [
       {
-        id: 05,
+        id: 5,
         question: {
           type: 'audio',
           content: 'assets/Humoreska.ogg',
@@ -76,7 +76,7 @@ const cards = [
       },
 
       {
-        id: 06,
+        id: 6,
         question: {
           type: 'audio',
           content: './xxxxxxxxx',
