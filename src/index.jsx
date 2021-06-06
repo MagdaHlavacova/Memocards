@@ -11,7 +11,7 @@ import './style.css';
 const App = () => (
   <Router>
     <Switch>
-      <Route path="/PagesOtazka">
+      <Route path="/PagesOtazka/:id">
         <PagesOtazka />
       </Route>
       <Route path="/PagesTemaSeznam">

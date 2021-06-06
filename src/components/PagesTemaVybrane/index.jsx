@@ -7,7 +7,6 @@ import PagesNavod from '../PagesNavod';
 
 const PagesTemaVybrane = () => {
   let { id } = useParams();
-  console.log(id);
 
   const temata = cards.filter((card) => card.id === id);
   console.log(temata[0].topic);
@@ -31,7 +30,7 @@ const PagesTemaVybrane = () => {
         </div>
         <div className="tlacitka">
           <div className="tlacitka-tema">
-            <Link to="/PagesOtazka">
+            <Link to="/PagesOtazka/obrazy">
               <button className="button1">Začít procvičovat</button>
             </Link>
             <button onClick={otevrit} className="button1">

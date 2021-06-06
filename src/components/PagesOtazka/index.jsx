@@ -1,37 +1,22 @@
 import React, { useState } from 'react';
 import Header from '../Header';
 import ButtonsCard from '../ButtonsCard';
+import { useParams } from 'react-router-dom';
 import Card from '../Card';
-/* import { cards } from '../../cards';
- */
-
-const cards = [
-  {
-    id: 1,
-    question: {
-      type: 'text',
-      content: 'Hlavní město Francie?',
-    },
-    answer: {
-      type: 'text',
-      content: 'Paříž',
-    },
-  },
-
-  {
-    id: 2,
-    question: {
-      type: 'text',
-      content: 'Hlavní město Jihoafrické republiky',
-    },
-    answer: {
-      type: 'text',
-      content: 'Pretoria',
-    },
-  },
-];
+import { cards as karty } from '../../cards';
 
 const PagesOtazka = () => {
+  let { id } = useParams();
+
+  const temata = karty.filter((card) => card.id === id);
+  console.log(temata);
+  console.log(id);
+
+  const tema = temata[0];
+  console.log(tema);
+
+  const cards = tema.cards;
+
   const [strana, setStrana] = useState('question');
   const [indexKarty, setIndexKarty] = useState(0);
 

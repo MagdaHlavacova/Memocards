@@ -39,7 +39,7 @@ export const cards = [
         id: 3,
         question: {
           type: 'image',
-          content: 'assets/VanGogh-HvezdnaNoc.jpg',
+          content: '/assets/VanGogh-HvezdnaNoc.jpg',
         },
         answer: {
           type: 'text',
@@ -51,7 +51,7 @@ export const cards = [
         id: 4,
         question: {
           type: 'image',
-          content: 'assets/GustavKlimt-polibek.webp',
+          content: '/assets/GustavKlimt-polibek.webp',
         },
         answer: {
           type: 'text',
@@ -70,7 +70,7 @@ export const cards = [
         id: 5,
         question: {
           type: 'audio',
-          content: 'assets/Humoreska.ogg',
+          content: '/assets/Humoreska.ogg',
         },
         answer: {
           type: 'text',
