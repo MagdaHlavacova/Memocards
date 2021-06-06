@@ -17,7 +17,7 @@ const App = () => (
       <Route path="/PagesTemaSeznam">
         <PagesTemaSeznam />
       </Route>
-      <Route path="/PagesTemaVybrane">
+      <Route path="/PagesTemaVybrane/:id">
         <PagesTemaVybrane />
       </Route>
       <Route path="/PagesNavod">

@@ -1,15 +1,22 @@
 import React from 'react';
 import Header from '../Header';
 import './style.css';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import { cards } from '../../cards';
 
 const PagesTemaVybrane = () => {
+  let { id } = useParams();
+  console.log(id);
+
+  const temata = cards.filter((card) => card.id === id);
+  console.log(temata[0].topic);
+
   return (
     <>
       <Header />
       <div className="obal-temata">
         <div className="nadpis-stranky">
-          <h2>Kosti:</h2>
+          <h2>{temata[0].topic}</h2>
         </div>
         <div className="tlacitka">
           <div className="tlacitka-tema">
