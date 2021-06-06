@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../Header';
 import './style.css';
 import { Link, useParams } from 'react-router-dom';
 import { cards } from '../../cards';
+import PagesNavod from '../PagesNavod';
 
 const PagesTemaVybrane = () => {
   let { id } = useParams();
@@ -10,6 +11,16 @@ const PagesTemaVybrane = () => {
 
   const temata = cards.filter((card) => card.id === id);
   console.log(temata[0].topic);
+
+  const [ukazModal, setUkazModal] = useState(false);
+
+  const otevrit = () => {
+    setUkazModal(true);
+  };
+
+  const zavrit = () => {
+    setUkazModal(false);
+  };
 
   return (
     <>
@@ -20,8 +31,12 @@ const PagesTemaVybrane = () => {
         </div>
         <div className="tlacitka">
           <div className="tlacitka-tema">
-            <button className="button1">Začít procvičovat</button>
-            <button className="button1">Jak na to?</button>
+            <Link to="/PagesOtazka">
+              <button className="button1">Začít procvičovat</button>
+            </Link>
+            <button onClick={otevrit} className="button1">
+              Jak na to?
+            </button>
             <button className="button1">Smazat téma</button>
             <Link to="/PagesTemaSeznam">
               <button className="button1">Zpět na seznam témat</button>
@@ -29,6 +44,7 @@ const PagesTemaVybrane = () => {
           </div>
         </div>
       </div>
+      {ukazModal ? <PagesNavod zavrit={zavrit} /> : null}
     </>
   );
 };
