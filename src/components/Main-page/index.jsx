@@ -22,7 +22,7 @@ const Main = () => {
             </p>
           </div>
           <div class="tlacitka-homepage">
-            <Link to="/PagesTemata">
+            <Link to="/PagesTemaSeznam">
               <button class="button1">Procvičování</button>
             </Link>
             <button class="button1">Vkládání</button>

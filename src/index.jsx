@@ -3,8 +3,8 @@ import { render } from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import PagesOtazka from './components/PagesOtazka';
 import Mainpage from './components/Main-page';
-import PagesTemata from './components/Pagestemata';
-import PagesVybrane from './components/PagesVybrane';
+import PagesTemaSeznam from './components/PagesTemaSeznam';
+import PagesTemaVybrane from './components/PagesTemaVybrane';
 import './style.css';
 
 const App = () => (
@@ -16,19 +16,13 @@ const App = () => (
       <Route path="/PagesOdpoved">
         <PagesOtazka />
       </Route>
-      <Route path="/PagesTemata">
-        <PagesTemata />
-      </Route>
-      <Route path="/PagesVybrane">
-        <PagesVybrane />
-      </Route>
-      {/* <Route path="/PagesTemaSeznam">
+      <Route path="/PagesTemaSeznam">
         <PagesTemaSeznam />
       </Route>
       <Route path="/PagesTemaVybrane">
         <PagesTemaVybrane />
-      </Route> */}
-      <Route path="/Mainpage">
+      </Route>
+      <Route path="/">
         <Mainpage />
       </Route>
     </Switch>

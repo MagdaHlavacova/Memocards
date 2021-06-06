@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from '../Header';
 import './style.css';
+import { Link } from 'react-router-dom';
 
-const PagesTemata = () => {
+const PagesTemaVybrane = () => {
   return (
     <>
       <Header />
@@ -15,7 +16,9 @@ const PagesTemata = () => {
             <button className="button1">Začít procvičovat</button>
             <button className="button1">Jak na to?</button>
             <button className="button1">Smazat téma</button>
-            <button className="button1">Zpět na seznam témat</button>
+            <Link to="/PagesTemaSeznam">
+              <button className="button1">Zpět na seznam témat</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -23,4 +26,4 @@ const PagesTemata = () => {
   );
 };
 
-export default PagesTemata;
+export default PagesTemaVybrane;
