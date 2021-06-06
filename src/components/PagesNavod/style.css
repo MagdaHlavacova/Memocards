@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  /*opacity: 50%;*/
+  height: 200px;
+  width: 200px;
+}
+
+.tlacitko-navod {
+  background-color: white;
+  color: black;
+}
+
+.navod-text {
+  background-color: #0c85ab;
+  font-family: 'alatsi', sans-serif;
+}

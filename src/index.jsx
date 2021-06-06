@@ -5,6 +5,7 @@ import PagesOtazka from './components/PagesOtazka';
 import Mainpage from './components/Main-page';
 import PagesTemaSeznam from './components/PagesTemaSeznam';
 import PagesTemaVybrane from './components/PagesTemaVybrane';
+import PagesNavod from './components/PagesNavod';
 import './style.css';
 
 const App = () => (
@@ -13,14 +14,14 @@ const App = () => (
       <Route path="/PagesOtazka">
         <PagesOtazka />
       </Route>
-      <Route path="/PagesOdpoved">
-        <PagesOtazka />
-      </Route>
       <Route path="/PagesTemaSeznam">
         <PagesTemaSeznam />
       </Route>
       <Route path="/PagesTemaVybrane">
         <PagesTemaVybrane />
+      </Route>
+      <Route path="/PagesNavod">
+        <PagesNavod />
       </Route>
       <Route path="/">
         <Mainpage />

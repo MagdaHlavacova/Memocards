@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 const ButtonsCard = () => {
   return (
@@ -14,7 +15,9 @@ const ButtonsCard = () => {
         <button className="button-sipka-vpravo">Další karta</button>
       </div>
       <div className="tlacitko-zpet">
-        <button className="button1">Zpět k tématům</button>
+        <Link to="/PagesTemaSeznam">
+          <button className="button1">Zpět k tématům</button>
+        </Link>
       </div>
     </>
   );
