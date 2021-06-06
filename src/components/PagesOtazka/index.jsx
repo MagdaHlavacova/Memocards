@@ -9,13 +9,15 @@ const PagesOtazka = () => {
   let { id } = useParams();
 
   const temata = karty.filter((card) => card.id === id);
-  console.log(temata);
-  console.log(id);
+  /*   console.log(temata);
+  console.log(id); */
 
   const tema = temata[0];
   console.log(tema);
 
   const cards = tema.cards;
+
+  /*   console.log(cards); */
 
   const [strana, setStrana] = useState('question');
   const [indexKarty, setIndexKarty] = useState(0);
@@ -30,14 +32,10 @@ const PagesOtazka = () => {
 
   const handleZpet = () => {
     setIndexKarty(indexKarty - 1);
-    /*     indexKarty === 0 ? button disabled=true
-     */
   };
 
   const handleDalsi = () => {
     setIndexKarty(indexKarty + 1);
-    /*      indexKarty>cards.lenght ?
-     */
   };
 
   const blokujZpet = indexKarty === 0 ? true : false;

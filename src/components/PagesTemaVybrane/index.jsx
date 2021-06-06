@@ -30,7 +30,7 @@ const PagesTemaVybrane = () => {
         </div>
         <div className="tlacitka">
           <div className="tlacitka-tema">
-            <Link to="/PagesOtazka/obrazy">
+            <Link to={`/PagesOtazka/${id}`}>
               <button className="button1">Začít procvičovat</button>
             </Link>
             <button onClick={otevrit} className="button1">
