@@ -12,7 +12,14 @@ const PagesTemaSeznam = () => {
         <div className="tlacitka">
           <div className="tlacitka-vyber-tema">
             {cards.map((card) => {
-              return <button className="button2">{card.topic}</button>;
+              return (
+                <Link
+                  key={card.topic}
+                  to={`/PagesTemaVybrane/${card.topic.id}`}
+                >
+                  <button className="button2">{card.topic}</button>
+                </Link>
+              );
             })}
 
             <Link to="/">

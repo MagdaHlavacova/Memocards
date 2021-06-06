@@ -1,6 +1,7 @@
 export const cards = [
   {
     topic: 'Hlavní města',
+    id: 'hlavnimesta',
     backgroundColor: '#f8eded',
     cards: [
       {
@@ -31,6 +32,7 @@ export const cards = [
 
   {
     topic: 'Obrazy',
+    id: 'obrazy',
     backgroundColor: '#deeeea',
     cards: [
       {
@@ -49,11 +51,11 @@ export const cards = [
         id: 4,
         question: {
           type: 'image',
-          content: 'img/xxxxxxx',
+          content: 'assets/GustavKlimt-polibek.webp',
         },
         answer: {
           type: 'text',
-          content: 'xxxxxxx',
+          content: 'Gustav Klimt - Polibek',
         },
       },
     ],
@@ -61,6 +63,7 @@ export const cards = [
 
   {
     topic: 'Hudební díla',
+    id: 'hudebnidila',
     backgroundColor: '#e6e1ef',
     cards: [
       {
