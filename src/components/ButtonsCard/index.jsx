@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import { Link } from 'react-router-dom';
+import { cards } from '../../cards';
 
 const ButtonsCard = ({
   handleOtoceni,
@@ -8,13 +9,14 @@ const ButtonsCard = ({
   handleKartaDalsi,
   zablokovaneDalsi,
   zablokovaneZpet,
+  otazka,
 }) => {
   return (
     <>
       <div className="tlacitka">
         <div className="tlacitko-strana">
           <button onClick={handleOtoceni} className="button1">
-            Řešení
+            {otazka === 'question' ? 'Ukaž odpověď' : 'zpět na otázku'}
           </button>
         </div>
       </div>

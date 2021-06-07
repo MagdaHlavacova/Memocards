@@ -9,18 +9,14 @@ const PagesOtazka = () => {
   let { id } = useParams();
 
   const temata = karty.filter((card) => card.id === id);
-  /*   console.log(temata);
-  console.log(id); */
 
   const tema = temata[0];
-  console.log(tema);
 
   const cards = tema.cards;
 
-  /*   console.log(cards); */
-
   const [strana, setStrana] = useState('question');
   const [indexKarty, setIndexKarty] = useState(0);
+  /*   const [zmenaPozadi, setZmenaPozadi] = useState('#e4fbff') */
 
   const handleClick = () => {
     if (strana === 'question') {
@@ -43,7 +39,7 @@ const PagesOtazka = () => {
   const blokujDalsi = indexKarty === cards.length - 1 ? true : false;
 
   return (
-    <>
+    <div className="barevnePozadi">
       <Header />
       <Card
         type={cards[indexKarty][strana].type}
@@ -55,8 +51,9 @@ const PagesOtazka = () => {
         handleOtoceni={handleClick}
         zablokovaneZpet={blokujZpet}
         zablokovaneDalsi={blokujDalsi}
+        otazka={strana}
       />
-    </>
+    </div>
   );
 };
 
