@@ -32,6 +32,7 @@ h2 {
 
 .karta-responzivni-obal {
   background-color: #e4fbff;
+  height: 1000;
 }
 
 .obal {
@@ -47,7 +48,7 @@ h2 {
   }
 
   .karta-responzivni-obal {
-    max-width: 40%;
+    max-width: 50%;
     border-style: solid;
     border-width: 2px;
     border-color: #0c85ab;
