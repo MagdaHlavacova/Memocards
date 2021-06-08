@@ -67,7 +67,7 @@ h1 {
   }
 
   .karta-responzivni-obal {
-    width: 50%;
+    max-width: 40%;
     border-style: solid;
     border-width: 2px;
     border-color: #0c85ab;

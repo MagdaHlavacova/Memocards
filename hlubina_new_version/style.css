@@ -67,7 +67,7 @@ h1 {
   color: white;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .obal {
     display: flex;
     flex-direction: row;

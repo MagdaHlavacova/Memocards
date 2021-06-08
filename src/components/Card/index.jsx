@@ -5,7 +5,7 @@ const Card = (props) => {
   if (props.type === 'image') {
     return (
       <div className="obal-karta">
-        <div className="karta">
+        <div className="karta-obrazek">
           <img src={props.content} />
         </div>
       </div>

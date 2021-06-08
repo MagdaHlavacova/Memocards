@@ -21,19 +21,6 @@ body {
   align-items: center;
 }
 
-.logo-brain {
-  display: flex;
-  width: 30%;
-  flex-wrap: wrap;
-}
-
-.hlubina {
-  display: flex;
-  font-family: 'Bungee';
-  color: #0c85ab;
-  font-size: 25px;
-}
-
 .obal-temata {
   display: flex;
   justify-content: center;
@@ -73,6 +60,18 @@ h2 {
   min-width: 70%;
   margin-top: 20px;
   background-color: white;
+  font-family: 'alatsi';
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-color: #0c85ab;
+  border-width: 2px;
+  color: #0c85ab;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
 }
 
 .karta-responzivni-obal {
@@ -92,7 +91,7 @@ h2 {
   }
 
   .karta-responzivni-obal {
-    width: 50%;
+    max-width: 40%;
     border-style: solid;
     border-width: 2px;
     border-color: #0c85ab;

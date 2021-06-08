@@ -20,40 +20,22 @@
   min-height: 300px;
   font-family: 'alatsi';
   background-color: #0c85ab;
-  color: black;
+  color: white;
   font-size: 18px;
 }
 
-/* tlacitka css */
-
-@media (max-width: 699px) {
-  .obrazek-responzivni-vypln {
-    display: none;
-  }
-}
-
-@media (min-width: 700px) {
-  .obal {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .obrazek-responzivni-vypln,
-  .karta-responzivni-obal {
-    width: calc(100% / 2);
-  }
-
-  .karta-responzivni-obal {
-    border-left: dotted;
-    border-bottom: dotted;
-    border-color: #0c85ab;
-    border-width: 2px;
-    padding-bottom: 20px;
-  }
-
-  .obrazek-responzivni-vypln {
-    display: flex;
-    align-items: center;
-  }
+.karta-obrazek {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: #0c85ab;
+  border-style: double;
+  border-width: 3px;
+  width: 65%;
+  font-family: 'alatsi';
+  background-color: #0c85ab;
+  color: white;
+  font-size: 18px;
+  object-fit: scale-down;
 }
