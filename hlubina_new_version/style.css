@@ -67,13 +67,7 @@ h1 {
   color: white;
 }
 
-@media (max-width: 699px) {
-  .obrazek-responzivni-vypln {
-    display: none;
-  }
-}
-
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .obal {
     display: flex;
     flex-direction: row;

@@ -40,20 +40,22 @@ const PagesOtazka = () => {
   const blokujDalsi = indexKarty === cards.length - 1 ? true : false;
 
   return (
-    <div className="barevnePozadi">
-      <Header />
-      <Card
-        type={cards[indexKarty][strana].type}
-        content={cards[indexKarty][strana].content}
-      />
-      <ButtonsCard
-        handleKartaZpet={handleZpet}
-        handleKartaDalsi={handleDalsi}
-        handleOtoceni={handleClick}
-        zablokovaneZpet={blokujZpet}
-        zablokovaneDalsi={blokujDalsi}
-        otazka={strana}
-      />
+    <div className="obal">
+      <div className="karta-responzivni-obal">
+        <Header />
+        <Card
+          type={cards[indexKarty][strana].type}
+          content={cards[indexKarty][strana].content}
+        />
+        <ButtonsCard
+          handleKartaZpet={handleZpet}
+          handleKartaDalsi={handleDalsi}
+          handleOtoceni={handleClick}
+          zablokovaneZpet={blokujZpet}
+          zablokovaneDalsi={blokujDalsi}
+          otazka={strana}
+        />
+      </div>
     </div>
   );
 };

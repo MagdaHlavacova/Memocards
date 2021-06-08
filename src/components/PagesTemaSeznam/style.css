@@ -75,34 +75,34 @@ h2 {
   background-color: white;
 }
 
-@media (max-width: 699px) {
-  .obrazek-responzivni-vypln {
-    display: none;
-  }
+.karta-responzivni-obal {
+  background-color: #e4fbff;
 }
 
-@media (min-width: 700px) {
+.obal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 750px) {
   .obal {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .obrazek-responzivni-vypln,
-  .karta-responzivni-obal {
-    width: calc(100% / 2);
   }
 
   .karta-responzivni-obal {
-    border-left: dotted;
-    border-bottom: dotted;
-    border-color: #0c85ab;
+    width: 50%;
+    border-style: solid;
     border-width: 2px;
+    border-color: #0c85ab;
     padding-bottom: 20px;
+    background-color: #e4fbff;
   }
 
-  .obrazek-responzivni-vypln {
-    display: flex;
-    align-items: center;
+  .obal {
+    background-color: #e1e5ea;
+    height: 100vh;
+    width: 100vw;
   }
 }
