@@ -42,12 +42,12 @@ h2 {
 
 .button2 {
   display: flex;
-  height: 30px;
+  height: 40px;
   min-width: 70%;
   margin-top: 20px;
   background-color: white;
   font-family: 'alatsi';
-  font-size: 20px;
+  font-size: 25px;
   padding-top: 1px;
   padding-left: 15px;
   padding-right: 15px;

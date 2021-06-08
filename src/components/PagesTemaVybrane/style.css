@@ -19,7 +19,7 @@ h2 {
   justify-content: center;
   text-transform: uppercase;
   color: #0c85ab;
-  font-size: 25px;
+  font-size: 35px;
   font-family: 'alatsi';
 }
 
@@ -32,7 +32,6 @@ h2 {
 
 .karta-responzivni-obal {
   background-color: #e4fbff;
-  height: 1000;
 }
 
 .obal {
