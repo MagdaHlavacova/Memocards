@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+/* header css  */
+body {
+  background-color: lightgray;
+  padding: 0;
+  margin: 0;
+}
+
 /* tělo karty  */
 .obal-karta {
   display: flex;
@@ -17,14 +29,17 @@
   border-style: double;
   border-width: 3px;
   width: 65%;
-  min-height: 300px;
+  min-height: 150px;
   font-family: 'alatsi';
-  background-color: #0c85ab;
-  color: black;
-  font-size: 18px;
+  background-color: white;
+  padding: 20px;
 }
 
-/* tlacitka css */
+.karta__obrazek {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 @media (max-width: 699px) {
   .obrazek-responzivni-vypln {
@@ -56,4 +71,8 @@
     display: flex;
     align-items: center;
   }
+}
+
+.barevnePozadi {
+  height: 100vh;
 }

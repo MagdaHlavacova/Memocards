@@ -14,26 +14,6 @@ body {
   margin: 0;
 }
 
-.logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo-brain {
-  display: flex;
-  width: 30%;
-  flex-wrap: wrap;
-}
-
-.hlubina {
-  display: flex;
-  font-family: 'Bungee';
-  color: #0c85ab;
-  font-size: 25px;
-}
-
 .obal-temata {
   display: flex;
   justify-content: center;
@@ -56,14 +36,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 10px;
   align-items: center;
-}
-
-.button1 {
-  border-style: none;
-  background-color: #0c85ab;
-  color: white;
 }
 
 @media (max-width: 699px) {

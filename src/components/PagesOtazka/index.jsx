@@ -4,6 +4,7 @@ import ButtonsCard from '../ButtonsCard';
 import { useParams } from 'react-router-dom';
 import Card from '../Card';
 import { cards as karty } from '../../cards';
+import './style.css';
 
 const PagesOtazka = () => {
   let { id } = useParams();

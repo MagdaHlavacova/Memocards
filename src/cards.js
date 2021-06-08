@@ -8,11 +8,11 @@ export const cards = [
         id: 1,
         question: {
           type: 'text',
-          content: 'Hlavní město Francie?',
+          content: 'Madagaskar',
         },
         answer: {
           type: 'text',
-          content: 'Paříž',
+          content: 'Antananarivo',
         },
       },
 
@@ -20,11 +20,23 @@ export const cards = [
         id: 2,
         question: {
           type: 'text',
-          content: 'Hlavní město Jihoafrické republiky',
+          content: 'Tchaj-wan',
         },
         answer: {
           type: 'text',
-          content: 'Pretoria',
+          content: 'Tchaj-pej',
+        },
+      },
+
+      {
+        id: 3,
+        question: {
+          type: 'text',
+          content: ' Lichtenštejnsko',
+        },
+        answer: {
+          type: 'text',
+          content: 'Vaduz',
         },
       },
     ],
@@ -36,7 +48,7 @@ export const cards = [
     backgroundColor: '#deeeea',
     cards: [
       {
-        id: 3,
+        id: 4,
         question: {
           type: 'image',
           content: '/assets/VanGogh-HvezdnaNoc.jpg',
@@ -48,7 +60,7 @@ export const cards = [
       },
 
       {
-        id: 4,
+        id: 5,
         question: {
           type: 'image',
           content: '/assets/GustavKlimt-polibek.webp',
@@ -56,6 +68,18 @@ export const cards = [
         answer: {
           type: 'text',
           content: 'Gustav Klimt - Polibek',
+        },
+      },
+
+      {
+        id: 6,
+        question: {
+          type: 'image',
+          content: '/assets/ClaudeMonet-Leknin.webp',
+        },
+        answer: {
+          type: 'text',
+          content: 'Claude Monet - Leknin',
         },
       },
     ],
@@ -67,7 +91,19 @@ export const cards = [
     backgroundColor: '#e6e1ef',
     cards: [
       {
-        id: 5,
+        id: 6,
+        question: {
+          type: 'audio',
+          content: '/assets/Smetana-ma-vlast.mp3',
+        },
+        answer: {
+          type: 'text',
+          content: 'Bedřich Smetana - Má vlast: Vltava',
+        },
+      },
+
+      {
+        id: 7,
         question: {
           type: 'audio',
           content: '/assets/Humoreska.ogg',
@@ -79,14 +115,15 @@ export const cards = [
       },
 
       {
-        id: 6,
+        id: 8,
         question: {
           type: 'audio',
-          content: './xxxxxxxxx',
+          content: '/assets/Antonin_Dvorak-Novosvetska.mp3',
         },
         answer: {
           type: 'text',
-          content: 'xxxxxxx',
+          content:
+            'Antonín Dvořák - Symfonie č. 9 e moll, op. 95 - Novosvětská',
         },
       },
     ],

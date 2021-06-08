@@ -31,4 +31,9 @@
   border-style: none;
   background-color: #0c85ab;
   color: white;
+  font-family: 'alatsi';
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 5px 12px 5px 12px;
+  margin: 15px;
 }

@@ -7,19 +7,6 @@ img {
   margin-bottom: 0;
 }
 
-/* header css  */
-body {
-  background-color: #e4fbff;
-  padding: 0;
-  margin: 0;
-}
-
-.homepage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 img {
   max-width: 100%;
   margin-bottom: 0;
@@ -42,10 +29,12 @@ img {
 h1 {
   font-family: 'Bungee';
   color: #0c85ab;
-  font-size: 3em;
+  font-size: 250%;
   text-align: center;
   margin-bottom: 20px;
   margin-top: -70px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* tlacitka css */
@@ -58,43 +47,34 @@ h1 {
 .tlacitka-homepage {
   display: flex;
   justify-content: space-evenly;
-  margin: 30px;
+  margin: 20px;
 }
 
-.button1 {
-  border-style: none;
-  background-color: #0c85ab;
-  color: white;
+.karta-responzivni-obal {
+  background-color: #e4fbff;
 }
 
-@media (max-width: 699px) {
-  .obrazek-responzivni-vypln {
-    display: none;
-  }
+.obal {
+  display: flex;
+  justify-content: center;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 650px) {
   .obal {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .obrazek-responzivni-vypln,
-  .karta-responzivni-obal {
-    width: calc(100% / 2);
   }
 
   .karta-responzivni-obal {
-    border-left: dotted;
-    border-bottom: dotted;
-    border-color: #0c85ab;
+    width: 50%;
+    max-height: 90%;
+    border-style: solid;
     border-width: 2px;
     padding-bottom: 20px;
+    background-color: #e4fbff;
   }
 
-  .obrazek-responzivni-vypln {
-    display: flex;
-    align-items: center;
+  .obal {
+    background-color: #e1e5ea;
   }
 }

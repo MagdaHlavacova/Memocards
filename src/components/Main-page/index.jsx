@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Main = () => {
   return (
-    <>
+    <div className="obal">
       <div className="karta-responzivni-obal">
         <div className="obrazek">
           <img src={brainImg} alt="ilustrace mozku" />
@@ -29,7 +29,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
