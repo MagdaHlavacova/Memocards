@@ -8,18 +8,6 @@ img {
 }
 
 /* header css  */
-body {
-  background-color: #e4fbff;
-  padding: 0;
-  margin: 0;
-}
-
-.logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 
 .obal-temata {
   display: flex;
@@ -44,14 +32,12 @@ h2 {
   justify-content: space-evenly;
   margin: 10px;
   align-items: center;
+  margin-bottom: 40px;
 }
 
-.button1 {
-  border-style: none;
-  background-color: #0c85ab;
-  color: white;
-  margin-bottom: 15px;
-  margin-top: 40px;
+.tlacitka {
+  display: flex;
+  align-items: center;
 }
 
 .button2 {
@@ -68,6 +54,7 @@ h2 {
   border-width: 2px;
   color: #0c85ab;
   text-transform: uppercase;
+  box-shadow: 2px 2px 2px silver;
 }
 
 a {
@@ -92,6 +79,7 @@ a {
 
   .karta-responzivni-obal {
     max-width: 40%;
+    min-height: 60%;
     border-style: solid;
     border-width: 2px;
     border-color: #0c85ab;

@@ -12,6 +12,7 @@ const PagesTemaSeznam = () => {
           <Header />
 
           <div className="obal-temata">
+            <h2>Vyber téma:</h2>
             <div className="tlacitka">
               <div className="tlacitka-vyber-tema">
                 {cards.map((card) => {
@@ -21,11 +22,10 @@ const PagesTemaSeznam = () => {
                     </Link>
                   );
                 })}
-
-                <Link to="/">
-                  <button className="button1">Zpět na hlavní stranu</button>
-                </Link>
               </div>
+              <Link to="/">
+                <button className="button1">Zpět na hlavní stranu</button>
+              </Link>
             </div>
           </div>
         </div>

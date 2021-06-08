@@ -37,6 +37,7 @@ const ButtonsCard = ({
         </button>
       </div>
       <div className="tlacitko-zpet">
+        <span class="dekor-buttonu"></span>
         <Link to="/PagesTemaSeznam">
           <button className="button1">Zpět k tématům</button>
         </Link>
