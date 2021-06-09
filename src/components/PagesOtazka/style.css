@@ -7,6 +7,31 @@ img {
   margin-bottom: 0;
 }
 
+.poradiKarty {
+  font-family: 'alatsi';
+  font-size: 18px;
+  color: #0c85ab;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+
+.obal-poradiKarty {
+  border-radius: 50%;
+  background-color: white;
+  height: 45px;
+  width: 45px;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #0c85ab;
+}
+
+.responzivni-obal-poradiKarty {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
 /* header css  */
 
 .karta-responzivni-obal {

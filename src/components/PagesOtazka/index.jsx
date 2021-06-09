@@ -17,7 +17,6 @@ const PagesOtazka = () => {
 
   const [strana, setStrana] = useState('question');
   const [indexKarty, setIndexKarty] = useState(0);
-  /*   const [zmenaPozadi, setZmenaPozadi] = useState('#e4fbff') */
 
   const handleClick = () => {
     if (strana === 'question') {
@@ -43,8 +42,18 @@ const PagesOtazka = () => {
 
   return (
     <div className="obal">
-      <div className="karta-responzivni-obal">
+      <div
+        className="karta-responzivni-obal"
+        style={{ backgroundColor: temata[0].backgroundColor }}
+      >
         <Header />
+        <div className="responzivni-obal-poradiKarty">
+          <div className="obal-poradiKarty">
+            <div className="poradiKarty">
+              {indexKarty + 1}/{cards.length}
+            </div>
+          </div>
+        </div>
         <Card
           type={cards[indexKarty][strana].type}
           content={cards[indexKarty][strana].content}

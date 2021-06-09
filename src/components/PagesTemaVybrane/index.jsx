@@ -24,7 +24,10 @@ const PagesTemaVybrane = () => {
   return (
     <>
       <div className="obal">
-        <div className="karta-responzivni-obal">
+        <div
+          className="karta-responzivni-obal"
+          style={{ backgroundColor: temata[0].backgroundColor }}
+        >
           <Header />
           <div className="nadpis-stranky">
             <h2>{temata[0].topic}</h2>
