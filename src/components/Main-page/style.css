@@ -55,6 +55,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-height: 100vh;
 }
 
 @media (min-width: 750px) {
