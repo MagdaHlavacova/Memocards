@@ -29,10 +29,12 @@ const PagesOtazka = () => {
 
   const handleZpet = () => {
     setIndexKarty(indexKarty - 1);
+    setStrana('question');
   };
 
   const handleDalsi = () => {
     setIndexKarty(indexKarty + 1);
+    setStrana('question');
   };
 
   const blokujZpet = indexKarty === 0 ? true : false;

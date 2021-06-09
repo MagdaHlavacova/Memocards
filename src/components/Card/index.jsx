@@ -22,9 +22,7 @@ const Card = (props) => {
     return (
       <div className="obal-karta">
         <div className="karta">
-          <audio controls>
-            <source src={props.content} />
-          </audio>
+          <audio controls src={props.content}></audio>
         </div>
       </div>
     );
