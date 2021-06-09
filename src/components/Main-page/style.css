@@ -43,10 +43,12 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .karta-responzivni-obal {
   background-color: #e4fbff;
+  height: 100vh;
 }
 
 .obal {
