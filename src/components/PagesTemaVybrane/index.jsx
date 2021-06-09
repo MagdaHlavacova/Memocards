@@ -31,15 +31,15 @@ const PagesTemaVybrane = () => {
           </div>
           <div className="tlacitka">
             <div className="tlacitka-tema">
-              <Link to={`/PagesOtazka/${id}`}>
-                <button className="button1">Začít procvičovat</button>
+              <Link to={`/PagesOtazka/${id}`} className="button1">
+                Začít procvičovat
               </Link>
               <button onClick={otevrit} className="button1">
                 Jak na to?
               </button>
               <button className="button1">Smazat téma</button>
-              <Link to="/PagesTemaSeznam">
-                <button className="button1">Zpět na seznam témat</button>
+              <Link to="/PagesTemaSeznam" className="button1">
+                Zpět na seznam témat
               </Link>
             </div>
           </div>

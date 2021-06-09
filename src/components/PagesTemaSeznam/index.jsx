@@ -17,14 +17,18 @@ const PagesTemaSeznam = () => {
               <div className="tlacitka-vyber-tema">
                 {cards.map((card) => {
                   return (
-                    <Link key={card.topic} to={`/PagesTemaVybrane/${card.id}`}>
-                      <button className="button2">{card.topic}</button>
+                    <Link
+                      key={card.topic}
+                      to={`/PagesTemaVybrane/${card.id}`}
+                      className="button2"
+                    >
+                      {card.topic}
                     </Link>
                   );
                 })}
               </div>
-              <Link to="/">
-                <button className="button1">Zpět na hlavní stranu</button>
+              <Link to="/" className="button1">
+                Zpět na hlavní stranu
               </Link>
             </div>
           </div>
