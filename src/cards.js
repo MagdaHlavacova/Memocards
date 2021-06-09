@@ -201,3 +201,48 @@ export const cards = [
     ],
   },
 ];
+
+[
+  {
+    topic: 'Anglické věty',
+    id: 'anglickevety',
+    backgroundColor: '#f8eded',
+    cards: [
+      {
+        id: 16,
+        question: {
+          type: 'text',
+          content: 'Můj bratranec je v krabici.',
+        },
+        answer: {
+          type: 'text',
+          content: 'My cousin is in the box.',
+        },
+      },
+
+      {
+        id: 17,
+        question: {
+          type: 'text',
+          content: 'Koťátko leží na koberci a mňouká.',
+        },
+        answer: {
+          type: 'text',
+          content: 'A kitten is lying on the carpet and meowing.',
+        },
+      },
+
+      {
+        id: 18,
+        question: {
+          type: 'text',
+          content: 'Prodává mušle na pobreží.',
+        },
+        answer: {
+          type: 'text',
+          content: 'She sells sea shells on the sea shore.',
+        },
+      },
+    ],
+  },
+];
