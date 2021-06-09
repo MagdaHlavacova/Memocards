@@ -200,9 +200,7 @@ export const cards = [
       },
     ],
   },
-];
 
-[
   {
     topic: 'Anglické věty',
     id: 'anglickevety',
@@ -241,6 +239,61 @@ export const cards = [
         answer: {
           type: 'text',
           content: 'She sells sea shells on the sea shore.',
+        },
+      },
+    ],
+  },
+
+  {
+    topic: 'Nepravidelné mn.č. v AJ',
+    id: 'nepravidelnemnoznecislo',
+    backgroundColor: '#f8eded',
+    cards: [
+      {
+        id: 19,
+        question: {
+          type: 'text',
+          content: 'cactus',
+        },
+        answer: {
+          type: 'text',
+          content: 'cacti',
+        },
+      },
+
+      {
+        id: 20,
+        question: {
+          type: 'text',
+          content: 'crisis',
+        },
+        answer: {
+          type: 'text',
+          content: 'crises',
+        },
+      },
+
+      {
+        id: 21,
+        question: {
+          type: 'text',
+          content: 'tooth',
+        },
+        answer: {
+          type: 'text',
+          content: 'teeth',
+        },
+      },
+
+      {
+        id: 21,
+        question: {
+          type: 'text',
+          content: 'man',
+        },
+        answer: {
+          type: 'text',
+          content: 'men',
         },
       },
     ],
