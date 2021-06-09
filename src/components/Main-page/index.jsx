@@ -21,11 +21,12 @@ const Main = () => {
               stopu.
             </p>
           </div>
+
           <div className="tlacitka-homepage">
+            <button className="button1">Vkládání</button>
             <Link to="/PagesTemaSeznam" className="button1">
               Procvičování
             </Link>
-            <button className="button1">Vkládání</button>
           </div>
         </div>
       </div>
