@@ -2,6 +2,13 @@ import React, { useState } from 'react';
 import './style.css';
 import { Link } from 'react-router-dom';
 import { cards } from '../../cards';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faAngleDoubleLeft,
+  faArrowAltCircleLeft,
+  faArrowAltCircleRight,
+  faListAlt,
+} from '@fortawesome/free-solid-svg-icons';
 
 const ButtonsCard = ({
   handleOtoceni,
@@ -26,19 +33,19 @@ const ButtonsCard = ({
           className="button-sipka-vlevo"
           disabled={zablokovaneZpet}
         >
-          Předchozí karta
+          <FontAwesomeIcon icon={faArrowAltCircleLeft} /> Předchozí karta
         </button>
         <button
           onClick={handleKartaDalsi}
           className="button-sipka-vpravo"
           disabled={zablokovaneDalsi}
         >
-          Další karta
+          Další karta <FontAwesomeIcon icon={faArrowAltCircleRight} />
         </button>
       </div>
       <div className="tlacitko-zpet">
         <Link to="/PagesTemaSeznam" className="button1 button1-zpet">
-          Zpět k tématům
+          <FontAwesomeIcon icon={faArrowAltCircleLeft} /> Zpět k tématům
         </Link>
       </div>
     </>
