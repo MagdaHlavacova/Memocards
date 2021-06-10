@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import brainImg from './img/brain-ai.png';
 import { Link } from 'react-router-dom';
 
 const Main = () => {
+  const [ukazModal, setUkazModal] = useState(false);
+
+  const otevrit = () => {
+    setUkazModal(true);
+  };
+
+  const zavrit = () => {
+    setUkazModal(false);
+  };
+
   return (
     <div className="obal">
       <div className="karta-responzivni-obal">
@@ -28,6 +38,7 @@ const Main = () => {
               Procvičování
             </Link>
           </div>
+          {ukazModal ? <Vkladani zavrit={zavrit} /> : null}
         </div>
       </div>
     </div>
