@@ -6,7 +6,6 @@ import Mainpage from './components/Main-page';
 import PagesTemaSeznam from './components/PagesTemaSeznam';
 import PagesTemaVybrane from './components/PagesTemaVybrane';
 import PagesNavod from './components/PagesNavod';
-import Vkladani from './components/Vkladani';
 import './style.css';
 
 const App = () => (
