@@ -29,7 +29,7 @@
 
 .button1 {
   border-style: none;
-  background-color: #0c85ab;
+  background-image: linear-gradient(to bottom right, #3c9dbb, #074f66);
   color: white;
   font-family: 'alatsi';
   font-size: 18px;
