@@ -3,9 +3,7 @@ import './style.css';
 import brainImg from './img/brain-ai.png';
 import Vkladani from '../Vkladani';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-import { faFileExport, faFileImport } from '@fortawesome/free-solid-svg-icons';
+import Footer from '../Footer';
 
 const Main = () => {
   const [ukazModal, setUkazModal] = useState(false);
@@ -37,12 +35,10 @@ const Main = () => {
 
           <div className="tlacitka-homepage">
             <button onClick={otevrit} className="button1">
-              <FontAwesomeIcon icon={faFileImport} />
-              {'   '}Vkládání
+              Vkládání
             </button>
             <Link to="/PagesTemaSeznam" className="button1">
-              Procvičování{'   '}
-              <FontAwesomeIcon icon={faFileExport} />
+              Procvičování
             </Link>
           </div>
         </div>

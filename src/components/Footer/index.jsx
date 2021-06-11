@@ -4,7 +4,7 @@ import './style.css';
 const Footer = () => {
   return (
     <footer>
-      <div className="footer">
+      <div>
         Mentees: Magda Hlaváčová & Markéta Kloubková-Jančíková * Mentors:
         Markéta Zadražilová & Elena Turmanov
       </div>
