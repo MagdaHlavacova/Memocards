@@ -4,6 +4,8 @@ import './style.css';
 import { Link, useParams } from 'react-router-dom';
 import { cards } from '../../cards';
 import PagesNavod from '../PagesNavod';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
 
 const PagesTemaVybrane = () => {
   let { id } = useParams();
@@ -41,9 +43,12 @@ const PagesTemaVybrane = () => {
                 Jak na to?
               </button>
               <button className="button1">Smazat téma</button>
-              <Link to="/PagesTemaSeznam" className="button1">
-                Zpět na seznam témat
-              </Link>
+              <div className="zpet">
+                <Link to="/PagesTemaSeznam" className="button1 button1-zpet">
+                  <FontAwesomeIcon icon={faArrowAltCircleLeft} />
+                  {'    '}Zpět na seznam témat
+                </Link>
+              </div>
             </div>
           </div>
         </div>

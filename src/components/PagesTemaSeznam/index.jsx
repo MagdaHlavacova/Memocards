@@ -29,7 +29,7 @@ const PagesTemaSeznam = () => {
                   );
                 })}
               </div>
-              <Link to="/" className="button1">
+              <Link to="/" className="button1 button1-zpet">
                 <FontAwesomeIcon icon={faArrowAltCircleLeft} />
                 {'    '}
                 Zpět na hlavní stranu

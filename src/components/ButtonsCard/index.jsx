@@ -5,6 +5,7 @@ import { cards } from '../../cards';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faAngleDoubleLeft,
+  faAngleDoubleRight,
   faArrowAltCircleLeft,
   faArrowAltCircleRight,
   faListAlt,
@@ -33,20 +34,22 @@ const ButtonsCard = ({
           className="button-sipka-vlevo"
           disabled={zablokovaneZpet}
         >
-          <FontAwesomeIcon icon={faArrowAltCircleLeft} /> Předchozí karta
+          <FontAwesomeIcon icon={faAngleDoubleLeft} /> Předchozí karta
         </button>
         <button
           onClick={handleKartaDalsi}
           className="button-sipka-vpravo"
           disabled={zablokovaneDalsi}
         >
-          Další karta <FontAwesomeIcon icon={faArrowAltCircleRight} />
+          Další karta <FontAwesomeIcon icon={faAngleDoubleRight} />
         </button>
       </div>
-      <div className="tlacitko-zpet">
-        <Link to="/PagesTemaSeznam" className="button1 button1-zpet">
-          <FontAwesomeIcon icon={faArrowAltCircleLeft} /> Zpět k tématům
-        </Link>
+      <div className="zpet">
+        <div className="tlacitko-zpet">
+          <Link to="/PagesTemaSeznam" className="button1 button1-zpet">
+            <FontAwesomeIcon icon={faArrowAltCircleLeft} /> Zpět k tématům
+          </Link>
+        </div>
       </div>
     </>
   );

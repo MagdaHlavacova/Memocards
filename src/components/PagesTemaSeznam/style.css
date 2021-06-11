@@ -11,12 +11,6 @@ img {
   flex-direction: column;
 }
 
-.nadpis-stranky {
-  margin-bottom: 0px;
-  /*   font-family: 'Bungee';
- */
-}
-
 h2 {
   display: flex;
   margin-bottom: 0;
