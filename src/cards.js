@@ -32,7 +32,7 @@ export const cards = [
         id: 3,
         question: {
           type: 'text',
-          content: ' Lichtenštejnsko',
+          content: 'Lichtenštejnsko',
         },
         answer: {
           type: 'text',
@@ -44,7 +44,7 @@ export const cards = [
         id: 4,
         question: {
           type: 'text',
-          content: ' Albánie',
+          content: 'Albánie',
         },
         answer: {
           type: 'text',
