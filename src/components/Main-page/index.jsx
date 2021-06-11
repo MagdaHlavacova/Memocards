@@ -41,7 +41,7 @@ const Main = () => {
             </Link>
           </div>
         </div>
-        {ukazModal ? <Vkladani zavrit={zavrit} /> : null}*/
+        {ukazModal ? <Vkladani zavrit={zavrit} /> : null}
       </div>
     </div>
   );
