@@ -39,6 +39,6 @@
   margin: 15px;
 }
 
-/* .button1-zpet {
-  background-color: ;
-} */
+.button1-zpet {
+  background-image: linear-gradient(to bottom right, #93329e, #440a67);
+}

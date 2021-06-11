@@ -13,13 +13,15 @@ img {
 
 .nadpis-stranky {
   margin-bottom: 0px;
-  font-family: 'alatsi';
+  /*   font-family: 'Bungee';
+ */
 }
 
 h2 {
   display: flex;
   margin-bottom: 0;
   justify-content: center;
+  font-family: 'Bungee';
 }
 
 .tlacitka-vyber-tema {
@@ -39,18 +41,17 @@ h2 {
 .button2 {
   display: flex;
   height: 35px;
-  min-width: 70%;
-  margin-top: 20px;
-  background-color: white;
+  margin-top: 18px;
+  background-color: #fbfeff;
   font-family: 'alatsi';
-  font-size: 27px;
+  font-size: 25px;
   text-align: center;
   padding-top: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  border-color: #0c85ab;
+  border-radius: 13px;
   border-width: 2px;
-  color: #0c85ab;
+  color: #096a88;
   box-shadow: 2px 2px 2px silver;
 }
 

@@ -3,6 +3,8 @@ import Header from '../Header';
 import { cards } from '../../cards';
 import './style.css';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
 
 const PagesTemaSeznam = () => {
   return (
@@ -28,6 +30,8 @@ const PagesTemaSeznam = () => {
                 })}
               </div>
               <Link to="/" className="button1">
+                <FontAwesomeIcon icon={faArrowAltCircleLeft} />
+                {'    '}
                 Zpět na hlavní stranu
               </Link>
             </div>
