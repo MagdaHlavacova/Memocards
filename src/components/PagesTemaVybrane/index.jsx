@@ -51,8 +51,9 @@ const PagesTemaVybrane = () => {
               </div>
             </div>
           </div>
+
+          {ukazModal ? <PagesNavod zavrit={zavrit} /> : null}
         </div>
-        {ukazModal ? <PagesNavod zavrit={zavrit} /> : null}
       </div>
     </>
   );

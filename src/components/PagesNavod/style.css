@@ -1,32 +1,60 @@
-.modal {
-  flex-direction: column;
+.modal-kontejner {
+  position: absolute;
+  top: 30px;
+  display: flex;
   justify-content: center;
+  top: 240px;
+  /*   padding-left: 20px;
+  padding-right: 20px; */
+  width: 100vw;
+  height: 35vh;
+  z-index: 1;
+
+  /*   display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  background-color: white;
+  z-index: 1; */
+}
+
+.modal {
+  display: flex;
+  flex-basis: 90%;
+  background-color: #fbfeff;
+  opacity: 0.9;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 18px;
+
+  /*   flex-direction: column; */
+  /*   justify-content: center;
   position: absolute;
   top: 50%;
   left: 50%;
   height: 200px;
   width: 200px;
   padding: 10px;
-  border-radius: 50%;
-}
-
-.modal-kontejner {
-  display: flex;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0);
-  z-index: 1;
+  border-radius: 50%; */
 }
 
 .tlacitko-navod {
-  background-color: white;
-  color: black;
+  background-color: #096a88;
+  color: white;
+  font-size: 20px;
+  border: none;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
 }
 
 .navod-text {
-  background-color: #0c85ab;
   font-family: 'alatsi', sans-serif;
   list-style-type: none;
+  font-size: 20px;
+  color: #096a88;
 }

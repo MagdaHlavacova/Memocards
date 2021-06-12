@@ -1,7 +1,16 @@
 footer {
-  display: block;
+  display: flex;
   font-family: 'alatsi';
   font-size: 13px;
   text-align: center;
-  color: #0c85ab;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #096a88;
+}
+
+span {
+  color: #e4fbff;
 }
