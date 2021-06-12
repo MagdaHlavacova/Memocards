@@ -80,7 +80,7 @@ export const cards = [
 
   {
     topic: 'Slavné obrazy',
-    id: 'obrazy',
+    id: 'slavneobrazy',
     backgroundColor: '#deeeea',
     cards: [
       {
@@ -159,7 +159,7 @@ export const cards = [
 
   {
     topic: 'Česká hudební díla',
-    id: 'hudebnidila',
+    id: 'ceskahudebnidila',
     backgroundColor: '#e6e1ef',
     cards: [
       {
@@ -204,7 +204,7 @@ export const cards = [
   {
     topic: 'Anglické věty',
     id: 'anglickevety',
-    backgroundColor: '#f8eded',
+    backgroundColor: '#fff5c0',
     cards: [
       {
         id: 16,
@@ -247,7 +247,7 @@ export const cards = [
   {
     topic: 'Nepravidelné mn.č. v AJ',
     id: 'nepravidelnemnoznecislo',
-    backgroundColor: '#f8eded',
+    backgroundColor: '#fff5eb',
     cards: [
       {
         id: 19,

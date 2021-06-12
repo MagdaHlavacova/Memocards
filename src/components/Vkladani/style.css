@@ -1,0 +1,29 @@
+.vkladani-kontejner {
+  display: flex;
+  justify-content: center;
+  top: 25px;
+  z-index: 1;
+  min-width: 70%;
+  margin-top: -250px;
+}
+
+.vkladani {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  background-color: #fbfeff;
+  opacity: 0.9;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 18px;
+}
+
+.vkladani-text {
+  font-family: 'alatsi', sans-serif;
+  list-style-type: none;
+  padding-left: 40px;
+  font-size: 20px;
+  color: #096a88;
+}

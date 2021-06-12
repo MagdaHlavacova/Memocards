@@ -15,16 +15,26 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .button-sipka-vpravo,
 .button-sipka-vlevo {
   font-family: 'alatsi';
-  width: 110px;
-  height: 30px;
-  background-color: #cee6ee;
+  font-size: 16px;
+  height: 25px;
+  border-radius: 13px;
+  color: white;
+  background-image: linear-gradient(to bottom right, #3c9dbb, #074f66);
   border-style: none;
+}
+
+.button-sipka-vpravo {
+  margin-right: 30px;
+}
+
+.button-sipka-vlevo {
+  margin-left: 30px;
 }
 
 .button1 {
@@ -36,9 +46,9 @@
   font-weight: 100;
   border-radius: 13px;
   padding: 5px 12px 5px 12px;
-  margin: 15px;
+  margin: 10px;
 }
 
-/* .button1-zpet {
-  background-color: ;
-} */
+.button1-zpet {
+  background-image: linear-gradient(to bottom right, #a996b8, #65427f);
+}

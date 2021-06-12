@@ -1,3 +1,5 @@
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './style.css';
 
@@ -12,7 +14,7 @@ const PagesNavod = (props) => {
           <li>4. Stiskněte DALŠÍ KARTA pro zobrazení další karty.</li>
         </ul>
         <button onClick={props.zavrit} className="tlacitko-navod">
-          Zavřít návod
+          <FontAwesomeIcon icon={faTimes} />
         </button>
       </div>
     </div>
