@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+.modal {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0.8;
+  top: 50%;
+  left: 50%;
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+=======
+>>>>>>> cb96501c85362333438e5bea7fac6d2e18896d92
 .modal-kontejner {
   display: flex;
   justify-content: center;
