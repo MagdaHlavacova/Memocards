@@ -1,7 +1,9 @@
 .modal {
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   position: absolute;
+  opacity: 0.8;
   top: 50%;
   left: 50%;
   height: 200px;
