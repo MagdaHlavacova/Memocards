@@ -10,10 +10,3 @@ footer {
   padding-bottom: 5px;
   background-color: #096a88;
 }
-
-footer {
-  display: flex;
-  font-family: 'bungee, roboto, sans-serif';
-  color: #0c85ab;
-  font-size: 20px;
-}
