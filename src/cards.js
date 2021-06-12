@@ -80,7 +80,7 @@ export const cards = [
 
   {
     topic: 'Slavné obrazy',
-    id: 'obrazy',
+    id: 'slavneobrazy',
     backgroundColor: '#deeeea',
     cards: [
       {
@@ -159,14 +159,14 @@ export const cards = [
 
   {
     topic: 'Česká hudební díla',
-    id: 'hudebnidila',
+    id: 'ceskahudebnidila',
     backgroundColor: '#e6e1ef',
     cards: [
       {
         id: 13,
         question: {
           type: 'audio',
-          content: '/assets/Smetana-ma-vlast.mp3',
+          content: '/assets/src_assets_Smetana-ma-vlast.mp3',
         },
         answer: {
           type: 'text',
@@ -182,7 +182,7 @@ export const cards = [
         },
         answer: {
           type: 'text',
-          content: 'Antonín Dvořák - Humoreska',
+          content: 'Antonín Dvořák - src_assets_Humoreska',
         },
       },
 
@@ -190,7 +190,7 @@ export const cards = [
         id: 15,
         question: {
           type: 'audio',
-          content: '/assets/Antonin_Dvorak-Novosvetska.mp3',
+          content: '/assets/src_assets_Antonin_Dvorak-Novosvetska.mp3',
         },
         answer: {
           type: 'text',

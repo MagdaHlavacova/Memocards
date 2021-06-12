@@ -1,10 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-
 footer {
   display: block;
-  font-family: 'Bungee';
+  font-family: 'alatsi';
+  font-size: 13px;
+  text-align: center;
   color: #0c85ab;
-  font-size: 20pxx;
 }

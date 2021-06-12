@@ -27,29 +27,3 @@ img {
   justify-content: center;
   margin-bottom: 5px;
 }
-
-/* header css  */
-
-.karta-responzivni-obal {
-  background-color: #e4fbff;
-}
-
-.obal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media (min-width: 750px) {
-  .karta-responzivni-obal {
-    max-width: 40%;
-    padding-bottom: 20px;
-    background-color: #e4fbff;
-  }
-
-  .obal {
-    background-color: #aaaaaa;
-    height: 100vh;
-    width: 100vw;
-  }
-}
