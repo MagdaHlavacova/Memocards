@@ -3,6 +3,7 @@ export const cards = [
     topic: 'Hlavní města',
     id: 'hlavnimesta',
     backgroundColor: '#f8eded',
+    deleted: false,
     cards: [
       {
         id: 1,
@@ -79,12 +80,94 @@ export const cards = [
   },
 
   {
-    topic: 'Slavné obrazy',
-    id: 'slavneobrazy',
-    backgroundColor: '#deeeea',
+    topic: 'Zádové svaly (musculi dorsi)',
+    id: 'zadovesvaly',
+    backgroundColor: '#e6e1ef',
+    deleted: false,
     cards: [
       {
         id: 7,
+        question: {
+          type: 'image',
+          content: '/assets/m-trapezius.jpg',
+        },
+        answer: {
+          type: 'text',
+          content: 'Sval trapézový(musculus trapezius)',
+        },
+      },
+
+      {
+        id: 8,
+        question: {
+          type: 'image',
+          content: '/assets/m-latissimus-dorsi.jpg',
+        },
+        answer: {
+          type: 'text',
+          content: 'široký sval zádový (musculus latissimus dorsi)',
+        },
+      },
+
+      {
+        id: 9,
+        question: {
+          type: 'image',
+          content: '/assets/Rhomboideus_minor.png',
+        },
+        answer: {
+          type: 'text',
+          content: 'malý sval rhombický (musculus rhomboideus minor)',
+        },
+      },
+
+      {
+        id: 10,
+        question: {
+          type: 'image',
+          content: '/assets/Rhomboideus_major.png',
+        },
+        answer: {
+          type: 'text',
+          content: 'velký sval rhombický (musculus rhomboideus major)',
+        },
+      },
+
+      {
+        id: 11,
+        question: {
+          type: 'image',
+          content: '/assets/Levator_scapulae.png',
+        },
+        answer: {
+          type: 'text',
+          content: 'zdvihač lopatky (musculus levator scapulae)',
+        },
+      },
+
+      {
+        id: 12,
+        question: {
+          type: 'image',
+          content: '/assets/Serratus_posterior.png',
+        },
+        answer: {
+          type: 'text',
+          content:
+            'sval pilovitý zadní dolní (musculus serratus posterior inferior)',
+        },
+      },
+    ],
+  },
+
+  {
+    topic: 'Slavné obrazy',
+    id: 'slavneobrazy',
+    backgroundColor: '#deeeea',
+    deleted: false,
+    cards: [
+      {
+        id: 13,
         question: {
           type: 'image',
           content: '/assets/VanGogh-HvezdnaNoc.jpg',
@@ -96,7 +179,7 @@ export const cards = [
       },
 
       {
-        id: 8,
+        id: 14,
         question: {
           type: 'image',
           content: '/assets/GustavKlimt-polibek.webp',
@@ -108,7 +191,7 @@ export const cards = [
       },
 
       {
-        id: 9,
+        id: 15,
         question: {
           type: 'image',
           content: '/assets/ClaudeMonet-Leknin.webp',
@@ -120,7 +203,7 @@ export const cards = [
       },
 
       {
-        id: 10,
+        id: 16,
         question: {
           type: 'image',
           content: '/assets/Vermeer-DivkaSPerlou.webp',
@@ -132,7 +215,7 @@ export const cards = [
       },
 
       {
-        id: 11,
+        id: 17,
         question: {
           type: 'image',
           content: '/assets/Dali.webp',
@@ -144,7 +227,7 @@ export const cards = [
       },
 
       {
-        id: 12,
+        id: 18,
         question: {
           type: 'image',
           content: '/assets/daVinci.webp',
@@ -161,9 +244,10 @@ export const cards = [
     topic: 'Česká hudební díla',
     id: 'ceskahudebnidila',
     backgroundColor: '#e6e1ef',
+    deleted: false,
     cards: [
       {
-        id: 13,
+        id: 19,
         question: {
           type: 'audio',
           content: '/assets/Smetana-ma-vlast.mp3',
@@ -175,7 +259,7 @@ export const cards = [
       },
 
       {
-        id: 14,
+        id: 20,
         question: {
           type: 'audio',
           content: '/assets/Humoreska.ogg',
@@ -187,7 +271,7 @@ export const cards = [
       },
 
       {
-        id: 15,
+        id: 21,
         question: {
           type: 'audio',
           content: '/assets/Antonin_Dvorak-Novosvetska.mp3',
@@ -205,9 +289,10 @@ export const cards = [
     topic: 'Anglické věty',
     id: 'anglickevety',
     backgroundColor: '#fff5c0',
+    deleted: false,
     cards: [
       {
-        id: 16,
+        id: 22,
         question: {
           type: 'text',
           content: 'Můj bratranec je v krabici.',
@@ -219,7 +304,7 @@ export const cards = [
       },
 
       {
-        id: 17,
+        id: 23,
         question: {
           type: 'text',
           content: 'Koťátko leží na koberci a mňouká.',
@@ -231,7 +316,7 @@ export const cards = [
       },
 
       {
-        id: 18,
+        id: 24,
         question: {
           type: 'text',
           content: 'Prodává mušle na pobreží.',
@@ -248,9 +333,10 @@ export const cards = [
     topic: 'Nepravidelné mn.č. v AJ',
     id: 'nepravidelnemnoznecislo',
     backgroundColor: '#fff5eb',
+    deleted: false,
     cards: [
       {
-        id: 19,
+        id: 25,
         question: {
           type: 'text',
           content: 'cactus',
@@ -262,7 +348,7 @@ export const cards = [
       },
 
       {
-        id: 20,
+        id: 26,
         question: {
           type: 'text',
           content: 'crisis',
@@ -274,7 +360,7 @@ export const cards = [
       },
 
       {
-        id: 21,
+        id: 27,
         question: {
           type: 'text',
           content: 'tooth',
@@ -286,7 +372,7 @@ export const cards = [
       },
 
       {
-        id: 21,
+        id: 28,
         question: {
           type: 'text',
           content: 'man',
