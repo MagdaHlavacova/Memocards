@@ -166,7 +166,7 @@ export const cards = [
         id: 13,
         question: {
           type: 'audio',
-          content: '/assets/src_assets_Smetana-ma-vlast.mp3',
+          content: '/assets/Smetana-ma-vlast.mp3',
         },
         answer: {
           type: 'text',
@@ -182,7 +182,7 @@ export const cards = [
         },
         answer: {
           type: 'text',
-          content: 'Antonín Dvořák - src_assets_Humoreska',
+          content: 'Antonín Dvořák - Humoreska',
         },
       },
 
@@ -190,7 +190,7 @@ export const cards = [
         id: 15,
         question: {
           type: 'audio',
-          content: '/assets/src_assets_Antonin_Dvorak-Novosvetska.mp3',
+          content: '/assets/Antonin_Dvorak-Novosvetska.mp3',
         },
         answer: {
           type: 'text',
