@@ -10,7 +10,7 @@
 .modal {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   max-width: 70%;
   background-color: #fbfeff;
   opacity: 0.95;
@@ -34,7 +34,7 @@
   padding-left: 0px;
 }
 
-.text {
+.navod-text {
   margin: 0;
 }
 

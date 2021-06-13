@@ -43,7 +43,9 @@ const Main = () => {
           </div>
         </div>
         {ukazModal ? <Vkladani zavrit={zavrit} /> : null}
-        <Footer />
+        <div className="footer">
+          <Footer />
+        </div>
       </div>
     </div>
   );
