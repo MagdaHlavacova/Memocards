@@ -17,17 +17,21 @@ const PagesTemaSeznam = () => {
             <h2>Vyber téma:</h2>
             <div className="tlacitka">
               <div className="tlacitka-vyber-tema">
-                {cards.map((card) => {
-                  return (
-                    <Link
-                      key={card.topic}
-                      to={`/PagesTemaVybrane/${card.id}`}
-                      className="button2"
-                    >
-                      {card.topic}
-                    </Link>
-                  );
-                })}
+                {cards
+                  /*.filter(function (card) {
+                    return !card.deleted;
+                  })*/
+                  .map((card) => {
+                    return (
+                      <Link
+                        key={card.topic}
+                        to={`/PagesTemaVybrane/${card.id}`}
+                        className="button2"
+                      >
+                        {card.topic}
+                      </Link>
+                    );
+                  })}
               </div>
               <Link to="/" className="button1 button1-zpet">
                 <FontAwesomeIcon icon={faArrowAltCircleLeft} />

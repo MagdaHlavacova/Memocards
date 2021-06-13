@@ -1,9 +1,8 @@
-export const cards = [
+export let cards = [
   {
     topic: 'Hlavní města',
     id: 'hlavnimesta',
     backgroundColor: '#f8eded',
-    deleted: false,
     cards: [
       {
         id: 1,
@@ -83,7 +82,6 @@ export const cards = [
     topic: 'Zádové svaly (musculi dorsi)',
     id: 'zadovesvaly',
     backgroundColor: '#e6e1ef',
-    deleted: false,
     cards: [
       {
         id: 7,
@@ -164,7 +162,6 @@ export const cards = [
     topic: 'Slavné obrazy',
     id: 'slavneobrazy',
     backgroundColor: '#deeeea',
-    deleted: false,
     cards: [
       {
         id: 13,
@@ -244,7 +241,6 @@ export const cards = [
     topic: 'Česká hudební díla',
     id: 'ceskahudebnidila',
     backgroundColor: '#e6e1ef',
-    deleted: false,
     cards: [
       {
         id: 19,
@@ -289,7 +285,6 @@ export const cards = [
     topic: 'Anglické věty',
     id: 'anglickevety',
     backgroundColor: '#fff5c0',
-    deleted: false,
     cards: [
       {
         id: 22,
@@ -333,7 +328,6 @@ export const cards = [
     topic: 'Nepravidelné mn.č. v AJ',
     id: 'nepravidelnemnoznecislo',
     backgroundColor: '#fff5eb',
-    deleted: false,
     cards: [
       {
         id: 25,
@@ -385,3 +379,8 @@ export const cards = [
     ],
   },
 ];
+
+export const handleSmaz = (idMazanyTopic) => {
+  cards = cards.filter((card) => card.id !== idMazanyTopic);
+  console.log(idMazanyTopic);
+};

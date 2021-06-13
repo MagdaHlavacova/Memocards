@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import Header from '../Header';
 import './style.css';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useHistory } from 'react-router-dom';
 import { cards } from '../../cards';
+import { handleSmaz } from '../../cards';
 import PagesNavod from '../PagesNavod';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
 
 const PagesTemaVybrane = () => {
   let { id } = useParams();
+  let history = useHistory();
 
   const temata = cards.filter((card) => card.id === id);
   console.log(temata[0].topic);
@@ -21,6 +23,11 @@ const PagesTemaVybrane = () => {
 
   const zavrit = () => {
     setUkazModal(false);
+  };
+
+  const handlePresmerovat = () => {
+    handleSmaz(id);
+    history.push('/PagesTemaSeznam');
   };
 
   return (
@@ -42,7 +49,9 @@ const PagesTemaVybrane = () => {
               <button onClick={otevrit} className="button1">
                 Jak na to?
               </button>
-              <button className="button1">Smazat téma</button>
+              <button className="button1" onClick={handlePresmerovat}>
+                Smazat téma
+              </button>
               <div className="zpet">
                 <Link to="/PagesTemaSeznam" className="button1 button1-zpet">
                   <FontAwesomeIcon icon={faArrowAltCircleLeft} />
