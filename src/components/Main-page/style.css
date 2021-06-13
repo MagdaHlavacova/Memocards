@@ -46,3 +46,9 @@ h1 {
   margin-bottom: 15px;
   margin-top: 10px;
 }
+
+.karta-responzivni-obal-mainpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
