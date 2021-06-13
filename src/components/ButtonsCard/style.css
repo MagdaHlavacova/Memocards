@@ -54,3 +54,10 @@
 .button1-zpet {
   background-image: linear-gradient(to bottom right, #a996b8, #65427f);
 }
+
+button[disabled],
+button:disabled {
+  color: white;
+  cursor: initial;
+  background-image: linear-gradient(to bottom right, #cacfd6, #b6bdc6);
+}

@@ -28,9 +28,9 @@ body {
 .karta-responzivni-obal {
   background-color: #e4fbff;
   height: 100%;
-  display: flex;
+  /*   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 .obal {
