@@ -383,7 +383,6 @@ export let cards = [
     topic: 'Chemické značky',
     id: 'chemickeznacky',
     backgroundColor: '#f8eded',
-    deleted: false,
     cards: [
       {
         id: 29,
@@ -418,6 +417,52 @@ export let cards = [
         answer: {
           type: 'text',
           content: 'Au - Aurum',
+        },
+      },
+    ],
+  },
+
+  {
+    topic: 'Stopařův průvodce po galaxii',
+    id: 'stoparuvpruvodce',
+    backgroundColor: '#e1e5ea',
+    cards: [
+      {
+        id: 32,
+        question: {
+          type: 'text',
+          content:
+            'Jaká je odpověď na základní otázku života, vesmíru a vůbec?',
+        },
+        answer: {
+          type: 'text',
+          content: '42',
+        },
+      },
+
+      {
+        id: 33,
+        question: {
+          type: 'text',
+          content: 'Který den v roce slavíme v kalendáři Ručníkový den? ',
+        },
+        answer: {
+          type: 'text',
+          content:
+            '25. Května. Ručníkový den, neboli Towel day je svátkem, kdy si všichni fanoušci Douglase Adamse a jeho díla nosí viditelně umístěný ručník. Jedná se o recesi, která má dnes již celosvětou působnost a odkazuje se na Adamsovo nejznámější dílo Stopařův průvodce po Galaxii. Právě v tomto díle je ručník ta nejpotřebnější věc pro cestování v galaxii a kterou u sebe může mít mezihvězdný stopař. Od autorovi smrti (2001) se z ručníkového dne stala pravidelná akce.',
+        },
+      },
+
+      {
+        id: 34,
+        question: {
+          type: 'text',
+          content: 'Jaký je nejlepší alkoholický drink ve vesmíru? ',
+        },
+        answer: {
+          type: 'text',
+          content:
+            'Pangalaktický megacloumák . Vypít ho je podle Stopařova průvodce asi jako nechat si vyrazit mozek z hlavy plátkem citronu obaleným kolem masivní zlaté cihly.',
         },
       },
     ],
