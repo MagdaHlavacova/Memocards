@@ -87,7 +87,7 @@ export let cards = [
         id: 7,
         question: {
           type: 'image',
-          content: '/assets/m-trapezius.jpg',
+          content: '/assets/m-trapezius.png',
         },
         answer: {
           type: 'text',
@@ -99,7 +99,7 @@ export let cards = [
         id: 8,
         question: {
           type: 'image',
-          content: '/assets/m-latissimus-dorsi.jpg',
+          content: '/assets/m-latissimus-dorsi.png',
         },
         answer: {
           type: 'text',
