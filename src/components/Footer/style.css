@@ -3,10 +3,11 @@ footer {
   font-family: 'alatsi';
   font-size: 13px;
   text-align: center;
-  color: white;
+  color: #096a88;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #096a88;
+  /*   background-color: #096a88;
+ */
 }
