@@ -26,7 +26,10 @@ const PagesTemaVybrane = () => {
   };
 
   const handlePresmerovat = () => {
-    handleSmaz(id);
+    const potvrdSmazani = window.confirm('Opravdu chcete smazat toto téma?');
+    if (potvrdSmazani === true) {
+      handleSmaz(id);
+    }
     history.push('/PagesTemaSeznam');
   };
 
