@@ -26,12 +26,6 @@ body {
   height: 100%;
 }
 
-.karta-responzivni-obal-mainpage {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .obal {
   display: flex;
   justify-content: center;

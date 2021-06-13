@@ -27,7 +27,7 @@ const Main = () => {
             <h1>Hlubina myšlení</h1>
             <div className="oAplikaci">
               <p>
-                Memokarty na míru. Při jejich tvoření se látku naučíte a
+                Memokarty na míru. Při jejich tvoření se látku naučíte a&nbsp;
                 pravidelným opakováním pak zafixujete. * Dle typu paměti či
                 potřeb probírané látky můžete vkládat texty, obrázky či zvukovou
                 stopu.

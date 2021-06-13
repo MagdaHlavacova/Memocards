@@ -79,7 +79,7 @@ export let cards = [
   },
 
   {
-    topic: 'Zádové svaly (musculi dorsi)',
+    topic: 'Svaly zad - musculi dorsi',
     id: 'zadovesvaly',
     backgroundColor: '#e6e1ef',
     cards: [
@@ -207,7 +207,7 @@ export let cards = [
         },
         answer: {
           type: 'text',
-          content: 'Johannes Vermeer - Dívka s perlou',
+          content: 'Johannes Vermeer - Dívka s\u00A0perlou',
         },
       },
 
@@ -231,7 +231,7 @@ export let cards = [
         },
         answer: {
           type: 'text',
-          content: 'Leonardo da Vinci - Mona Lisa',
+          content: 'Leonardo da\u00A0Vinci - Mona Lisa',
         },
       },
     ],
@@ -275,7 +275,7 @@ export let cards = [
         answer: {
           type: 'text',
           content:
-            'Antonín Dvořák - Symfonie č. 9 e moll, op. 95 - Novosvětská',
+            'Antonín Dvořák - Symfonie č. 9\u00A0e\u00A0moll, op.\u00A095 - Novosvětská',
         },
       },
     ],
@@ -290,7 +290,7 @@ export let cards = [
         id: 22,
         question: {
           type: 'text',
-          content: 'Můj bratranec je v krabici.',
+          content: 'Můj bratranec je v\u00A0krabici.',
         },
         answer: {
           type: 'text',
@@ -302,11 +302,11 @@ export let cards = [
         id: 23,
         question: {
           type: 'text',
-          content: 'Koťátko leží na koberci a mňouká.',
+          content: 'Koťátko leží na koberci a\u00A0mňouká.',
         },
         answer: {
           type: 'text',
-          content: 'A kitten is lying on the carpet and meowing.',
+          content: 'A\u00A0kitten is lying on the carpet and meowing.',
         },
       },
 
@@ -432,7 +432,7 @@ export let cards = [
         question: {
           type: 'text',
           content:
-            'Jaká je odpověď na základní otázku života, vesmíru a vůbec?',
+            'Jaká je odpověď na základní otázku života, vesmíru a\u00A0vůbec?',
         },
         answer: {
           type: 'text',
@@ -444,12 +444,13 @@ export let cards = [
         id: 33,
         question: {
           type: 'text',
-          content: 'Který den v roce slavíme v kalendáři Ručníkový den? ',
+          content:
+            'Který den v\u00A0roce slavíme v\u00A0kalendáři Ručníkový den?',
         },
         answer: {
           type: 'text',
           content:
-            '25. Května. Ručníkový den, neboli Towel day je svátkem, kdy si všichni fanoušci Douglase Adamse a jeho díla nosí viditelně umístěný ručník. Jedná se o recesi, která má dnes již celosvětou působnost a odkazuje se na Adamsovo nejznámější dílo Stopařův průvodce po Galaxii. Právě v tomto díle je ručník ta nejpotřebnější věc pro cestování v galaxii a kterou u sebe může mít mezihvězdný stopař. Od autorovi smrti (2001) se z ručníkového dne stala pravidelná akce.',
+            '25. Května. Ručníkový den, neboli Towel day je svátkem, kdy si všichni fanoušci Douglase Adamse a\u00A0jeho díla nosí viditelně umístěný ručník. Jedná se o\u00A0recesi, která má dnes již celosvětou působnost a\u00A0odkazuje se na Adamsovo nejznámější dílo Stopařův průvodce po Galaxii. Právě v\u00A0tomto díle je ručník ta nejpotřebnější věc pro cestování v\u00A0galaxii a\u00A0kterou u\u00A0sebe může mít mezihvězdný stopař. Od autorovi smrti (2001) se z\u00A0ručníkového dne stala pravidelná akce.',
         },
       },
 
@@ -462,7 +463,7 @@ export let cards = [
         answer: {
           type: 'text',
           content:
-            'Pangalaktický megacloumák . Vypít ho je podle Stopařova průvodce asi jako nechat si vyrazit mozek z hlavy plátkem citronu obaleným kolem masivní zlaté cihly.',
+            'Pangalaktický megacloumák . Vypít ho je podle Stopařova průvodce asi jako nechat si vyrazit mozek z\u00A0hlavy plátkem citronu obaleným kolem masivní zlaté cihly.',
         },
       },
     ],
