@@ -8,18 +8,17 @@ body {
 }
 
 .tlacitko-navod {
+  display: flex;
   background-color: #65427f;
   color: white;
   font-size: 20px;
   border: none;
   text-align: center;
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  margin-top: 20px;
-  padding-left: 2px;
-  padding-right: 2px;
-  order: 1;
+  align-items: center;
+
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
 }
 
 .karta-responzivni-obal {
