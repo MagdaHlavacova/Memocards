@@ -27,6 +27,7 @@
   color: white;
   background-image: linear-gradient(to bottom right, #3c9dbb, #074f66);
   border-style: none;
+  cursor: pointer;
 }
 
 .button-sipka-vpravo {
@@ -47,6 +48,7 @@
   border-radius: 13px;
   padding: 5px 12px 5px 12px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .button1-zpet {

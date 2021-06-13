@@ -15,7 +15,6 @@ body {
   border: none;
   text-align: center;
   align-items: center;
-
   width: 25px;
   height: 25px;
   margin-top: 10px;
@@ -23,30 +22,27 @@ body {
 
 .karta-responzivni-obal {
   background-color: #e4fbff;
-  height: 100vh;
+  height: 100%;
 }
 
 .obal {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 @media (min-width: 750px) {
   .obal {
     display: flex;
-    flex-direction: row;
+    background-color: #aaaaaa;
+    height: 100vh;
+    width: 100vw;
   }
 
   .karta-responzivni-obal {
     max-width: 40%;
     padding-bottom: 20px;
     background-color: #e4fbff;
-  }
-
-  .obal {
-    background-color: #aaaaaa;
-    height: 100vh;
-    width: 100vw;
   }
 }

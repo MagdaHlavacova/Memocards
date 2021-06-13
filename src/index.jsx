@@ -28,7 +28,7 @@ const App = () => (
         <Mainpage />
       </Route>
     </Switch>
-    <Footer />
+    {/* <Footer /> */}
   </Router>
 );
 

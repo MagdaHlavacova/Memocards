@@ -423,7 +423,7 @@ export let cards = [
   },
 
   {
-    topic: 'Stopařův průvodce po galaxii',
+    topic: 'Stopařův průvodce',
     id: 'stoparuvpruvodce',
     backgroundColor: '#e1e5ea',
     cards: [
