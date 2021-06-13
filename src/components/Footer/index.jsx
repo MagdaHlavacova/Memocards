@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <div>
         <span>Mentees:</span> Magda Hlaváčová & Markéta Kloubková-Jančíková *{' '}
-        <span>Mentors:</span> Markéta Zadražilová & Elena Turmanov
+        <span>Mentors:</span> Markéta Zadražilová & Elena Tumanov
       </div>
     </footer>
   );
