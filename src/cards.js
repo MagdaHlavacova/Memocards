@@ -81,7 +81,7 @@ export let cards = [
   {
     topic: 'Svaly zad - musculi dorsi',
     id: 'zadovesvaly',
-    backgroundColor: '#e6e1ef',
+    backgroundColor: '#ccf2f4',
     cards: [
       {
         id: 7,
@@ -382,7 +382,7 @@ export let cards = [
   {
     topic: 'Chemické značky',
     id: 'chemickeznacky',
-    backgroundColor: '#f8eded',
+    backgroundColor: '#fff5fd',
     cards: [
       {
         id: 29,
