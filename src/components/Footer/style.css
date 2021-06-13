@@ -1,12 +1,13 @@
 footer {
   display: flex;
   font-family: 'alatsi';
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
   color: white;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   background-color: #096a88;
+  align-content: stretch;
 }

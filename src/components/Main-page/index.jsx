@@ -28,7 +28,7 @@ const Main = () => {
             <div className="oAplikaci">
               <p>
                 Memokarty na míru. Při jejich tvoření se látku naučíte a
-                pravidelným opakováním pak zafixujete. <br /> Dle typu paměti či
+                pravidelným opakováním pak zafixujete. * Dle typu paměti či
                 potřeb probírané látky můžete vkládat texty, obrázky či zvukovou
                 stopu.
               </p>
@@ -45,9 +45,7 @@ const Main = () => {
           </div>
           {ukazModal ? <Vkladani zavrit={zavrit} /> : null}
         </div>
-        <div className="footer">
-          <Footer />
-        </div>
+        <Footer />
       </div>
     </div>
   );
