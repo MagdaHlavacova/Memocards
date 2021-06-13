@@ -378,6 +378,50 @@ export let cards = [
       },
     ],
   },
+
+  {
+    topic: 'Chemické značky',
+    id: 'chemickeznacky',
+    backgroundColor: '#f8eded',
+    deleted: false,
+    cards: [
+      {
+        id: 29,
+        question: {
+          type: 'text',
+          content: 'kyslík',
+        },
+        answer: {
+          type: 'text',
+          content: 'O - oxygenium',
+        },
+      },
+
+      {
+        id: 30,
+        question: {
+          type: 'text',
+          content: 'radium',
+        },
+        answer: {
+          type: 'text',
+          content: 'Ra - Radium',
+        },
+      },
+
+      {
+        id: 31,
+        question: {
+          type: 'text',
+          content: 'zlato',
+        },
+        answer: {
+          type: 'text',
+          content: 'Au - Aurum',
+        },
+      },
+    ],
+  },
 ];
 
 export const handleSmaz = (idMazanyTopic) => {
