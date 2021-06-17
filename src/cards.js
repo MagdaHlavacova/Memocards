@@ -278,6 +278,18 @@ export let cards = [
             'Antonín Dvořák - Symfonie č. 9\u00A0e\u00A0moll, op.\u00A095 - Novosvětská',
         },
       },
+
+      {
+        id: 34,
+        question: {
+          type: 'audio',
+          content: '/assets/Janacek_Jeji_pastorkyna_predehra.mp3',
+        },
+        answer: {
+          type: 'text',
+          content: 'Antonín Dvořák - Leoš Janáček - Její pastorkyňa (předehra)',
+        },
+      },
     ],
   },
 
