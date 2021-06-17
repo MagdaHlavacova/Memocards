@@ -427,6 +427,18 @@ export let cards = [
           content: 'Antonio Vivaldi - Čtvero ročních dob - Jaro',
         },
       },
+
+      {
+        id: 46,
+        question: {
+          type: 'audio',
+          content: '/assets/oda_na_radost',
+        },
+        answer: {
+          type: 'text',
+          content: 'Friedrichem Schillerem - Óda na radost',
+        },
+      },
     ],
   },
 
