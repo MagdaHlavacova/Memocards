@@ -238,8 +238,8 @@ export let cards = [
   },
 
   {
-    topic: 'Česká hudební díla',
-    id: 'ceskahudebnidila',
+    topic: 'Hudební díla',
+    id: 'hudebnidila',
     backgroundColor: '#e6e1ef',
     cards: [
       {
@@ -287,7 +287,144 @@ export let cards = [
         },
         answer: {
           type: 'text',
-          content: 'Antonín Dvořák - Leoš Janáček - Její pastorkyňa (předehra)',
+          content: 'Leoš Janáček - Její pastorkyňa (předehra)',
+        },
+      },
+
+      {
+        id: 35,
+        question: {
+          type: 'audio',
+          content: '/assets/Bach_Braniborsky_koncert_c_1.mp3',
+        },
+        answer: {
+          type: 'text',
+          content: 'Johann Sebastian Bach - Braniborský koncert č.1',
+        },
+      },
+
+      {
+        id: 36,
+        question: {
+          type: 'audio',
+          content: '/assets/Bach_Toccata-a-fuga-d-moll_Ales-Barta.mp3',
+        },
+        answer: {
+          type: 'text',
+          content: 'Johann Sebastian Bach - Toccata a fuga d moll - Aleš Bárta',
+        },
+      },
+
+      {
+        id: 37,
+        question: {
+          type: 'audio',
+          content: '/assets/Beethoven_Osudova_I.-Allegro-Con_Brio.mp3',
+        },
+        answer: {
+          type: 'text',
+          content: 'Ludwig van Beethoven - Osudová I. - Allegro - Con Brio',
+        },
+      },
+
+      {
+        id: 38,
+        question: {
+          type: 'audio',
+          content:
+            '/assets/Beethoven_Sonata_mesicniho_svitu-1.-Adagio-Sostenuto-14-In-C-Sharp-Minor-Op.-27-2.mp3',
+        },
+        answer: {
+          type: 'text',
+          content:
+            'Ludwig van Beethoven - Sonáta měsíčního svitu - 1. Adagio Sostenuto 14 In C Sharp Minor Op. 27-2',
+        },
+      },
+
+      {
+        id: 39,
+        question: {
+          type: 'audio',
+          content: '/assets/Beethoven_Sonata_Pro_Elisku',
+        },
+        answer: {
+          type: 'text',
+          content: 'Ludwig van Beethoven - Sonáta pro Elišku',
+        },
+      },
+
+      {
+        id: 40,
+        question: {
+          type: 'audio',
+          content: '/assets/Dvorak_Bibl_pisen_c_5_Hospodin-jest-muj-Pastyr',
+        },
+        answer: {
+          type: 'text',
+          content:
+            'Antonín Dvořák - Biblická píseň č. 5 - Hospodin jest můj Pastýř',
+        },
+      },
+
+      {
+        id: 41,
+        question: {
+          type: 'audio',
+          content: '/assets/Dvorak_Bibl_pisen_c_5_Hospodin-jest-muj-Pastyr',
+        },
+        answer: {
+          type: 'text',
+          content:
+            'Antonín Dvořák - Biblická píseň č. 5 - Hospodin jest můj Pastýř',
+        },
+      },
+
+      {
+        id: 42,
+        question: {
+          type: 'audio',
+          content: '/assets/Mozart_Don-Giovanni_predehra',
+        },
+        answer: {
+          type: 'text',
+          content: 'Wolfgang Amadeus Mozart - Don Giovanni - předehra',
+        },
+      },
+
+      {
+        id: 43,
+        question: {
+          type: 'audio',
+          content: '/assets/Mozart_Mala_nocni_hudba-KV-525-In-G-1.-Allegro',
+        },
+        answer: {
+          type: 'text',
+          content:
+            'Wolfgang Amadeus Mozart - Malá noční hudba - KV - 525 - In G-1. Allegro',
+        },
+      },
+
+      {
+        id: 44,
+        question: {
+          type: 'audio',
+          content: '/assets/Novak_Slovacka_suita_Zamilovani_op.-32-č.-3.',
+        },
+        answer: {
+          type: 'text',
+          content: 'Vítězslav Novák - Slovácká suita Zamilovaní',
+        },
+      },
+
+      {
+        id: 45,
+        question: {
+          type: 'audio',
+          content: '/assets/Vivaldi_Ctvero_rocnich_dob_Jaro',
+        },
+        answer: {
+          type: 'text',
+          content: 'Antonio Vivaldi - Čtvero ročních dob - Jaro',
         },
       },
     ],
