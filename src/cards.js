@@ -345,7 +345,7 @@ export let cards = [
         id: 39,
         question: {
           type: 'audio',
-          content: '/assets/Beethoven_Sonata_Pro_Elisku',
+          content: '/assets/Beethoven_Sonata_Pro_Elisku.mp3',
         },
         answer: {
           type: 'text',
@@ -357,20 +357,7 @@ export let cards = [
         id: 40,
         question: {
           type: 'audio',
-          content: '/assets/Dvorak_Bibl_pisen_c_5_Hospodin-jest-muj-Pastyr',
-        },
-        answer: {
-          type: 'text',
-          content:
-            'Antonín Dvořák - Biblická píseň č. 5 - Hospodin jest můj Pastýř',
-        },
-      },
-
-      {
-        id: 41,
-        question: {
-          type: 'audio',
-          content: '/assets/Dvorak_Bibl_pisen_c_5_Hospodin-jest-muj-Pastyr',
+          content: '/assets/Dvorak_Bibl_pisen_c_5_Hospodin-jest-muj-Pastyr.mp3',
         },
         answer: {
           type: 'text',
@@ -383,7 +370,7 @@ export let cards = [
         id: 42,
         question: {
           type: 'audio',
-          content: '/assets/Mozart_Don-Giovanni_predehra',
+          content: '/assets/Mozart_Don-Giovanni_predehra.mp3',
         },
         answer: {
           type: 'text',
@@ -395,7 +382,7 @@ export let cards = [
         id: 43,
         question: {
           type: 'audio',
-          content: '/assets/Mozart_Mala_nocni_hudba-KV-525-In-G-1.-Allegro',
+          content: '/assets/Mozart_Mala_nocni_hudba-KV-525-In-G-1.-Allegro.mp3',
         },
         answer: {
           type: 'text',
@@ -408,7 +395,7 @@ export let cards = [
         id: 44,
         question: {
           type: 'audio',
-          content: '/assets/Novak_Slovacka_suita_Zamilovani_op.-32-č.-3.',
+          content: '/assets/Novak_Slovacka_suita_Zamilovani_op.-32-č.-3.mp3',
         },
         answer: {
           type: 'text',
@@ -420,7 +407,7 @@ export let cards = [
         id: 45,
         question: {
           type: 'audio',
-          content: '/assets/Vivaldi_Ctvero_rocnich_dob_Jaro',
+          content: '/assets/Vivaldi_Ctvero_rocnich_dob_Jaro.mp3',
         },
         answer: {
           type: 'text',
@@ -432,7 +419,7 @@ export let cards = [
         id: 46,
         question: {
           type: 'audio',
-          content: '/assets/oda_na_radost',
+          content: '/assets/oda_na_radost.mp3',
         },
         answer: {
           type: 'text',
